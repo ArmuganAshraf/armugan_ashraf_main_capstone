@@ -1,4 +1,4 @@
-export const Week = [
+/*export const Week = [
   Monday = {
       meal1 : 'Lunch',
       meal2 : 'Dinner'
@@ -8,8 +8,8 @@ export const Week = [
       meal3 : 'Lunch',
       meal4 : 'Dinner'
   },
-]
-export const Cuisines = [
+]*/
+/*export const Cuisines = [
   Asian = [
     {
       img : URL('../image/teriyaki-chicken.jpg'),
@@ -100,5 +100,5 @@ export const Cuisines = [
   Mexican = [],
   Italian = [],
   FastFood = []
-]
+]*/
 
