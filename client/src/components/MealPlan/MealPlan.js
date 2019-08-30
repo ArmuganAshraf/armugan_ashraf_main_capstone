@@ -22,12 +22,10 @@ class MealPlan extends React.Component{
   render(){
     return(
       <>
-      <h3>Meal Plan Options</h3>
-      <ul>
-        <li><Food list={this.state.cuisine}/></li>
-        <li>Categories</li>
-        <li>Dessert</li>
-      </ul>
+        <h3>Meal Plan Options</h3>
+        <p><Food list={this.state.cuisine}/></p>
+        
+      
       </>
     )
   }
