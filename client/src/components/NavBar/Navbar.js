@@ -1,5 +1,5 @@
 import React from 'react';
-import Baker from '../../image/baker.svg';
+import Baker from '../image/baker.svg';
 
 class Navbar extends React.Component{
   render(){
