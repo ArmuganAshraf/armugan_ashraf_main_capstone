@@ -1,6 +1,5 @@
 import React from 'react';
 import './Food.scss';
-import Add from '../image/calendar.svg';
 
 
 class Food extends React.Component{
