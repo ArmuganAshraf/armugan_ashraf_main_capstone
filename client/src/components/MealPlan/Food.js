@@ -8,7 +8,7 @@ class Food extends React.Component{
       <>
       <div className='card'>{this.props.list.map(item => (
       <div key={item.id} className='card__item'>
-            <img src={item.image} />
+            <img src={item.imageUrls} />
             <h4>{item.title}</h4>
             <p>{item.readyInMinutes} mins</p>
             <p>serves {item.servings}</p>

@@ -11,7 +11,7 @@ class MealPlan extends React.Component{
   }
   foodData = () => {
     axios.get("http://localhost:8080/").then(response => {
-      console.log(response.data)
+      console.log(response.data[0].imageUrls)
       this.setState({
         cuisine: response.data
         
