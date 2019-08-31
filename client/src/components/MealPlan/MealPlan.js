@@ -9,9 +9,10 @@ class MealPlan extends React.Component{
   componentDidMount(){
     this.foodData();
   }
+
   foodData = () => {
     axios.get("http://localhost:8080/").then(response => {
-      console.log(response.data[0].imageUrls)
+      console.log(response.data);
       this.setState({
         cuisine: response.data
         

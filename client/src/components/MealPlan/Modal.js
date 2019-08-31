@@ -1,8 +1,10 @@
+import React from 'react';
+
 class Modal extends React.Component{
   render(){
     return(
     <form>
-      <div class="modal-body">
+      <div>
         <p>Add the recipe to your calendar</p>
       </div>
       <div>
@@ -18,11 +20,13 @@ class Modal extends React.Component{
         </select>
       </div>
       <div class="modal-footer">
-        <input type="radio" class="btn btn-secondary" data-dismiss="modal">Lunch</input>
-        <input type="radio" class="btn btn-primary">Dinner</input>
+        <input type="radio">Lunch</input>
+        <input type="radio">Dinner</input>
       </div>
     </form>
       
     )
   }
 }
+
+export default Modal;
