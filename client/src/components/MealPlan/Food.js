@@ -9,13 +9,13 @@ class Food extends React.Component{
   render(){
     return(
       <>
-      <div className='card'>{this.props.list.map(item => (
-        <div key={item.id} className='card__item'>
-              <img src={this.baseUrl+item.image} width='100px' height='100px'/>
-              <h4>{item.title}</h4>
-              <p>{item.readyInMinutes} mins</p>
-              <p>serves {item.servings}</p>
-        <div>
+        <div className='card'>{this.props.list.map(item => (
+          <div key={item.id} className='card__item'>
+            <img src={this.baseUrl+item.image} width='100px' height='100px'/>
+            <h4>{item.title}</h4>
+            <p>{item.readyInMinutes} mins</p>
+            <p>serves {item.servings}</p>
+          <div>
           Select Day:
           <select>
             <option value='Monday'>Monday</option>
@@ -27,14 +27,14 @@ class Food extends React.Component{
             <option value='Sunday'>Sunday</option>
           </select>
         </div>
-        <div>
+      <div>
           Meal:
           <select>
             <option value='Lunch'>Lunch</option>
             <option value='Dinner'>Dinner</option>
           </select>
+          </div>
         </div>
-      </div>
           )
         )}
       </div>
