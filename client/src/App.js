@@ -1,19 +1,210 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import MealPlan from './components/MealPlan/MealPlan';
-import Navbar from './components/NavBar/Navbar';
-import Food from './components/MealPlan/Food';
-import cuisine from './components/Data/cuisine';
+import axios from 'axios';
+import { Grid, GridColumn as Column, GridCell, GridDetailRow } from '@progress/kendo-react-grid';
+import { DropDownList } from '@progress/kendo-react-dropdowns';
+
+class DetailComponent extends GridDetailRow {
+  render() {
+      const dataItem = this.props.dataItem;
+      let image = 'https://spoonacular.com/recipeImages/';
+      return (
+          <section>
+              <p><img src={image+dataItem.image} alt="" width="200px" height="200px"  /></p>
+              <p><strong>Ingredients:</strong> 
+                <ul>
+                {
+                  dataItem.ingredients.map((item, index) => (
+                    <li key={index}>
+                      {item}
+                    </li>
+                ))}
+                </ul>
+              </p>
+              <p><strong>Recipe:</strong> 
+                <ul>
+                {
+                  dataItem.recipe.map((item, index) => (
+                    <li key={index}>
+                      {item}
+                    </li>
+                ))}
+                </ul>
+              </p>
+          </section>
+      );
+  }
+}
+
+class MyImageCell extends GridCell {
+  render() {
+    let image = 'https://spoonacular.com/recipeImages/';
+      return (
+              <td>
+                  <img src={image+this.props.dataItem.image} alt="" width="200px" height="200px"  />
+              </td>
+          ) ;
+  }
+}
+
+class DropDownCell extends GridCell {
+
+  handleChange(e) {
+      this.props.onChange({
+          dataItem: this.props.dataItem,
+          field: this.props.field,
+          syntheticEvent: e.syntheticEvent,
+          value: e.target.value.value
+      });
+  }
+  render() {
+    //const dataValue = this.props.dataItem[this.props.field];
+      return (
+          <td>
+              <DropDownList
+                  style={{ width: "200px" }}
+                  onChange={this.handleChange.bind(this)}
+                  //value={dataValue}
+                  data={[
+                      { text: 'Monday Lunch', value: 'Monday Lunch' },
+                      { text: 'Tuesday Lunch', value: 'Tuesday Lunch' },
+                      { text: 'Wednesday Lunch', value: 'Wednesday Lunch' },
+                      { text: 'Thursday Lunch', value: 'Thursday Lunch' },
+                      { text: 'Friday Lunch', value: 'Friday Lunch' },
+                      { text: 'Saturday Lunch', value: 'Saturday Lunch' },
+                      { text: 'Sunday Lunch', value: 'Sunday Lunch' },
+                      { text: 'Monday Dinner', value: 'Monday Dinner' },
+                      { text: 'Tuesday Dinner', value: 'Tuesday Dinner' },
+                      { text: 'Wednesday Dinner', value: 'Wednesday Dinner' },
+                      { text: 'Thursday Dinner', value: 'Thursday Dinner' },
+                      { text: 'Friday Dinner', value: 'Friday Dinner' },
+                      { text: 'Saturday Dinner', value: 'Saturday Dinner' },
+                      { text: 'Sunday Dinner', value: 'Sunday Dinner' }
+                  ]}
+                  valueField="value"
+                  textField="text"
+              />
+          </td>
+      );
+  }
+}
+
 
 class App extends React.Component{
-  render(){
-    return(
+  constructor(props){
+    super(props);
+
+    this.state = {
+      cuisine : []
+    };
+
+    const addToPlan = this.addToPlan.bind(this);
+    this.itemChange = this.itemChange.bind(this);
+
+    class MyCommandCell extends GridCell {
+      render() {
+          return (
+                  <td>
+                      <button
+                          className="k-primary k-button k-grid-edit-command"
+                          onClick={() => addToPlan(this.props.dataItem)}
+                      > Add
+                          </button>
+                  </td>
+              ) ;
+      }
+    }
+    this.commandCell = MyCommandCell;
+  }
+
+  imageCell = MyImageCell;
+  
+  componentDidMount(){
+    this.foodData();
+  }
+
+  foodData = () => {
+    axios.get("http://localhost:8080/").then(response => {
+      console.log(response.data);
+      this.setState({
+        cuisine: response.data
+        
+      });
+    });
+  };
+
+  expandChange = (event) => {
+    event.dataItem.expanded = !event.dataItem.expanded;
+    this.forceUpdate();
+  }
+
+  addToPlan(dataItem) {
+    console.log("H:",dataItem);
+    console.log("P:",this.state.cuisine);
+    // this.update(this.state.data, dataItem).inEdit = true;
+     this.setState({
+         data: this.state.cuisine.slice()
+     });
+  }
+
+  itemChange(event) {
+    const value = event.value;
+    const name = event.field;
+    if (!name) {
+        return;
+    }
+    const updatedData = this.state.cuisine.slice();
+    const item = this.update(updatedData, event.dataItem);
+    item[name] = value;
+    this.setState({
+      cuisine: updatedData
+    });
+  }
+
+
+  update(data, item, remove) {
+    let updated;
+    let index = data.findIndex(p => p === item || item.ProductID && p.ProductID === item.ProductID);
+    if (index >= 0) {
+        updated = Object.assign({}, item);
+        data[index] = updated;
+    } else {
+        let id = 1;
+        data.forEach(p => { id = Math.max(p.ProductID + 1, id); });
+        updated = Object.assign({}, item, { ProductID: id });
+        data.unshift(updated);
+        index = 0;
+    }
+
+    if (remove) {
+        return data.splice(index, 1)[0];
+    }
+
+    return data[index];
+  }
+
+
+  render() {
+    const evnt = this.state.cuisine;
+    return (
       <>
-        <Navbar />
-        <MealPlan />
+        <Grid
+            data={this.state.cuisine}
+            onItemChange={this.itemChange}
+            detail={DetailComponent}
+            style={{ height: '1200px' }}
+            expandField="expanded"
+            onExpandChange={this.expandChange}
+        >
+            <Column field="image" cell={this.imageCell} />
+            <Column field="title" title="Title" width="300px" />
+            <Column field="readyInMinutes" title="Ready in Minutes" width="200px" />
+            <Column field="servings" title="Servings" width="200px" />
+            <Column field="plans" cell={DropDownCell} />
+            <Column cell={this.commandCell} />
+        </Grid>
+        
       </>
-    )
+    );
   }
 }
 
