@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,KAAK,CAAA;EACH,gBAAgB,EAAC,wBAAwB;CAc1C;;AAZE,AAAD,WAAO,CAAA;EACL,OAAO,EAAE,IAAI;EACb,SAAS,EAAE,QAAQ;EACnB,eAAe,EAAE,YAAY;EAC7B,MAAM,EAAE,eAAe;EACvB,MAAM,EAAE,MAAM;CACf;;AATH,AAWE,KAXG,CAWH,MAAM,CAAA;EACJ,aAAa,EAAE,IAAI;EACnB,UAAU,EAAE,GAAG,CAAC,KAAK,CAAC,wBAAqB;CAC5C",
+    "sources": [
+        "Food.scss"
+    ],
+    "names": [],
+    "file": "Food.css"
+}
