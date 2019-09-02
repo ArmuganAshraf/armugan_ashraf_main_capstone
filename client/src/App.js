@@ -138,9 +138,16 @@ class App extends React.Component{
   }
 
   addToPlan(dataItem) {
-    console.log("H:",dataItem);
-    console.log("P:",this.state.cuisine);
-    // this.update(this.state.data, dataItem).inEdit = true;
+    axios.post('http://localhost:8080/', {
+      meal: dataItem
+    })
+    .then(function (response) {
+      console.log(response);
+    })
+    .catch(function (error) {
+      console.log(error);
+    });
+
      this.setState({
          data: this.state.cuisine.slice()
      });
