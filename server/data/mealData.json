@@ -32,22 +32,22 @@
         "Creamy-Avocado-Pasta-547775.jpg"
     ],
     "ingredients" : [
-    {"1":"9 ounces (255 g) uncooked pasta"},
-    {"2":"1 medium garlic clove"},
-    {"3":"1/4 cup lightly packed fresh basil leaves, plus more for serving"},
-    {"4":"1 to 2 tablespoons fresh lemon juice, to taste"},
-    {"5":"1 tablespoon extra-virgin olive oil, plus more if needed"},
-    {"6":"1 ripe medium avocado, pitted"},
-    {"7":"1 tablespoon water"},
-    {"8":"1/4 to 1/2 teaspoon fine sea salt, to taste"},
-    {"9":"Freshly ground black pepper, to taste"},
-    {"10":"Lemon zest, for serving"}
+    "9 ounces (255 g) uncooked pasta",
+    "1 medium garlic clove",
+    "1/4 cup lightly packed fresh basil leaves, plus more for serving",
+    "1 to 2 tablespoons fresh lemon juice, to taste",
+    "1 tablespoon extra-virgin olive oil, plus more if needed",
+    "1 ripe medium avocado, pitted",
+    "1 tablespoon water",
+    "1/4 to 1/2 teaspoon fine sea salt, to taste",
+    "Freshly ground black pepper, to taste",
+    "Lemon zest, for serving"
     ],
     "recipe":[
-      {"1":"Bring a large pot of salted water to a boil. Cook the pasta according to the instructions on the package. For a lighter option, serve the avocado sauce with zucchini noodles."},
-      {"2":"While the pasta cooks, make the sauce: In a food processor, combine the garlic and basil and pulse to mince. Add the lemon juice, oil, avocado, and 1 tablespoon water and process until smooth, stopping to scrape down the bowl as needed. If the sauce is too thick, add a bit more oil. Season with salt and pepper to taste."},
-      {"3":"Drain the pasta and place it back in the pot. Add all of the avocado sauce and stir until combined. You can gently rewarm the pasta if it has cooled slightly, or simply serve it at room temperature."},
-      {"4":"Top with pepper, lemon zest, and fresh basil leaves, if desired."}
+      "Bring a large pot of salted water to a boil. Cook the pasta according to the instructions on the package. For a lighter option, serve the avocado sauce with zucchini noodles.",
+      "While the pasta cooks, make the sauce: In a food processor, combine the garlic and basil and pulse to mince. Add the lemon juice, oil, avocado, and 1 tablespoon water and process until smooth, stopping to scrape down the bowl as needed. If the sauce is too thick, add a bit more oil. Season with salt and pepper to taste.",
+      "Drain the pasta and place it back in the pot. Add all of the avocado sauce and stir until combined. You can gently rewarm the pasta if it has cooled slightly, or simply serve it at room temperature.",
+      "Top with pepper, lemon zest, and fresh basil leaves, if desired."
     ]
   },
   {
@@ -60,46 +60,20 @@
           "avocado-toast-with-eggs-spinach-and-tomatoes-818941.jpg"
       ],
     "ingredients":[ 
-      {"1":"1/2 teaspoon minced shallot"},
-      {"2":"1 cup packed spinach leaves"},
-      {"3":"2 large egg whites or 1 large egg lightly beaten"},
-      {"4":"Salt and black pepper to taste"},
-      {"5":"1 slice Private Selection Multigrain bread toasted"},
-      {"6":"1/2 avocado pit and skin removed"},
-      {"7":"2 Private Selection Campari tomatoes sliced"}
+      "1/2 teaspoon minced shallot",
+      "1 cup packed spinach leaves",
+      "2 large egg whites or 1 large egg lightly beaten",
+      "Salt and black pepper to taste",
+      "1 slice Private Selection Multigrain bread toasted",
+      "1/2 avocado pit and skin removed",
+      "2 Private Selection Campari tomatoes sliced"
     ],
     "recipe":[
-      {"1":"Spray a small skillet with non-stick cooking spray. Add the shallot and spinach and cook over medium heat until spinach is wilted. Place in a small bowl and set aside."},
-      {"2":"Spray the pan again. Pour beaten egg whites or egg into the pan and season with salt and black pepper, to taste. Cook over medium heat until soft-scrambled, about 2 minutes."},
-      {"3":"Mash the avocado with a fork and spread evenly on piece of toast. Top the avocado toast with spinach, scrambled eggs, and tomato slices. Season with salt and pepper, to taste. Serve immediately."},
-      {"4":"Note-to make this gluten-free, use gluten-free bread."},
-      {"5":""},
-      {"6":""},
-      {"7":""}
+      "Spray a small skillet with non-stick cooking spray. Add the shallot and spinach and cook over medium heat until spinach is wilted. Place in a small bowl and set aside.",
+      "Spray the pan again. Pour beaten egg whites or egg into the pan and season with salt and black pepper, to taste. Cook over medium heat until soft-scrambled, about 2 minutes.",
+      "Mash the avocado with a fork and spread evenly on piece of toast. Top the avocado toast with spinach, scrambled eggs, and tomato slices. Season with salt and pepper, to taste. Serve immediately.",
+      "Note-to make this gluten-free, use gluten-free bread."
     ]
-  },
-  {
-      "id": 495111,
-      "title": "Citrus Sesame Kale",
-      "readyInMinutes": 15,
-      "servings": 4,
-      "image": "Citrus-Sesame-Kale-495111.jpg",
-      "imageUrls": [
-          "Citrus-Sesame-Kale-495111.jpg"
-      ],
-      "ingredients":[
-        {"1":"2 tsp. sesame oil (I used toasted)"},
-        {"2":"1 tsp. grated ginger"},
-        {"3":"1 clove garlic, minced"},
-        {"4":"1 bunch kale (about 3/4 lb.), tough stems removed & leaves torn into bite-sized pieces"},
-        {"5":"1 1/2 tsp. soy sauce or tamari"},
-        {"6":"1 tbsp. fresh orange juice"},
-        {"7":"2 tsp. sesame seeds"}
-      ],
-      "recipe":[
-        {"1":"Heat sesame oil in a large skillet or wok over medium heat. Add ginger and garlic; cook for 30 seconds, or until fragrant, stirring constantly. Add kale and stir until coated with oil. Stir in soy sauce and orange juice; cover and cook for 3 minutes, or until kale is softened."},
-        {"2":"Stir in sesame seeds and red pepper flakes (if using) and serve."}
-      ]
   },
   {
       "id": 689502,
@@ -111,42 +85,20 @@
           "Melt-In-Your-Mouth-Kale-Salad-689502.jpg"
       ],
       "ingredients":[
-        {"1":"1 bunch of lacinato or dinosaur kale, stems removed, rinsed and patted dry"},
-        {"2":"⅓ cup currants (or chopped raisins)"},
-        {"3":"juice of one lemon"},
-        {"4":"1 tbsp of olive oil"},
-        {"5":"1 tsp local honey"},
-        {"6":"½ cup pine nuts toasted"},
-        {"7":"salt and pepper to taste"},
-        {"8":"4 tbsp grated raw parmesan cheese"}
+        "1 bunch of lacinato or dinosaur kale, stems removed, rinsed and patted dry",
+        "⅓ cup currants (or chopped raisins)",
+        "juice of one lemon",
+        "1 tbsp of olive oil",
+        "1 tsp local honey",
+        "½ cup pine nuts toasted",
+        "salt and pepper to taste",
+        "4 tbsp grated raw parmesan cheese"
       ],
       "recipe":[
-        {"1":"In a food processor, process kale into small chopped pieces"},
-        {"2":"To make dressing, stir lemon juice, olive oil, honey, salt and pepper together in a large bowl"},
-        {"3":"Add chopped kale, currants, pine nuts and parmesan to bowl with dressing"},
-        {"4":"Stir all ingredients together and serve"}
-      ]
-  },
-  {
-      "id": 837136,
-      "title": "Kale Pineapple Smoothie",
-      "readyInMinutes": 4,
-      "servings": 1,
-      "image": "kale-pineapple-smoothie-837136.jpg",
-      "imageUrls": [
-          "kale-pineapple-smoothie-837136.jpg"
-      ],
-      "ingredients":[ 
-        {"1":"2 cups lightly packed chopped kale leaves — stems removed"},
-        {"2":"3/4 cup unsweetened vanilla almond milk — or any milk you like"},
-        {"3":"1 frozen medium banana — cut into chunks"},
-        {"4":"1/4 cup plain non-fat Greek yogurt"},
-        {"5":"1/4 cup frozen pineapple pieces"},
-        {"6":"2 tablespoons peanut butter — creamy or crunchy (I use natural creamy)"},
-        {"7":"1 to 3 teaspoons honey — to taste"}
-      ],
-      "recipe":[
-        {"1":"Place all ingredients (kale, almond milk, banana, yogurt, pineapple, peanut butter, and honey) in a blender in the order listed. Blend until smooth. Add more milk as needed to reach desired consistency. Enjoy immediately."}
+        "In a food processor, process kale into small chopped pieces",
+        "To make dressing, stir lemon juice, olive oil, honey, salt and pepper together in a large bowl",
+        "Add chopped kale, currants, pine nuts and parmesan to bowl with dressing",
+        "Stir all ingredients together and serve"
       ]
   },
   {
@@ -159,45 +111,20 @@
           "Mexican-Salad-with-Lime-Dressing-582897.jpg"
       ],
       "ingredients":[
-        {"1":"1 large head Romaine Lettuce, rinsed, chopped and dried"},
-        {"2":"1 cup Cherry or grape tomatoes, halved (or large tomato, diced)"},
-        {"3":"1 avocado, diced"},
-        {"4":"1/2 English cucumber, sliced"},
-        {"5":"1/2 small yellow onion, thinly sliced"},
-        {"6":"1 cup Snap peas, whole, optional"},
-        {"7":"1/2 cup corn kernels"},
-        {"8":"1/3 bunch fresh cilantro"}
+        "1 large head Romaine Lettuce, rinsed, chopped and dried",
+        "1 cup Cherry or grape tomatoes, halved (or large tomato, diced)",
+       "1 avocado, diced",
+        "1/2 English cucumber, sliced",
+        "1/2 small yellow onion, thinly sliced",
+        "1 cup Snap peas, whole, optional",
+        "1/2 cup corn kernels",
+        "1/3 bunch fresh cilantro"
       ],
       "recipe":[
-        {"1":"Combine all salad dressing ingredients and shake or whisk them together then set aside."},
-        {"2":"Chop all salad ingredients and combine in a large salad bowl."},
-        {"3":"Shake salad dressing again prior to serving and drizzle the top with as much salad dressing as you prefer. Toss salad together and enjoy!"},
-        {"4":""},
-        {"5":""},
-        {"6":""},
-        {"7":""}
-      ]
-  },
-  {
-      "id": 801710,
-      "title": "Matcha Green Tea and Pineapple Smoothie",
-      "readyInMinutes": 10,
-      "servings": 1,
-      "image": "matcha-green-tea-and-pineapple-smoothie-801710.jpg",
-      "imageUrls": [
-          "matcha-green-tea-and-pineapple-smoothie-801710.jpg"
-      ],
-      "ingredients":[
-        {"1":"1 banana"},
-        {"2":"1 C fresh pineapple"},
-        {"3":"1 C kale or spinach"},
-        {"4":"½  teaspoon matcha powder, plus more to taste"},
-        {"5":"½ cup nut or soy milk"},
-        {"6":"squeeze  of lemon"},
-        {"7":"Handful of ice cubes ( or use frozen bananas)"}
-      ],
-      "recipe":[
-        {"1":"Blend all in a blender until very smooth. Enjoy!!"}
+        "Combine all salad dressing ingredients and shake or whisk them together then set aside.",
+       "Chop all salad ingredients and combine in a large salad bowl.",
+        "Shake salad dressing again prior to serving and drizzle the top with as much salad dressing as you prefer. Toss salad together and enjoy!"
+    
       ]
   },
   {
@@ -210,18 +137,18 @@
           "green-smoothie-695486.jpg"
       ],
       "ingredients":[
-        {"1":"2 cups spinach"},
-        {"2":"2 cups water"},
-        {"3":"1 cup mango"},
-        {"4":"1 cup pineapple"},
-        {"5":"2 bananas"}
+        "2 cups spinach",
+        "2 cups water",
+        "1 cup mango",
+        "1 cup pineapple",
+        "2 bananas"
       ],
       "recipe":[
-        {"1":"Tightly pack 2 cups of leafy greens in a measuring cup and then toss into blender."},
-        {"2":"Add water and blend together until all leafy chunks are gone."},
-        {"3":"Add mango, pineapple and bananas and blend again until smooth."},
-        {"4":"Pour into a mason jar (or cute cup of your choice)."},
-        {"5":"Gulp or sip like a rawkstar!"}
+        "Tightly pack 2 cups of leafy greens in a measuring cup and then toss into blender.",
+        "Add water and blend together until all leafy chunks are gone.",
+        "Add mango, pineapple and bananas and blend again until smooth.",
+        "Pour into a mason jar (or cute cup of your choice).",
+        "Gulp or sip like a rawkstar!"
       ]
   },
   {
@@ -234,35 +161,14 @@
           "low-carb-frosty-812966.jpg"
       ],
       "ingredients":[
-        {"1":"Heavy Cream ¾ cup"},
-        {"2":"¼ cup The Ultimate Icing Sugar Replacement by Swerve"},
-        {"3":"2 teaspoon Cacao Powder Raw Chocolate Powder Certified Organic by Navitas"}
+        "Heavy Cream ¾ cup",
+        "¼ cup The Ultimate Icing Sugar Replacement by Swerve",
+        "2 teaspoon Cacao Powder Raw Chocolate Powder Certified Organic by Navitas"
       ],
       "recipe":[
-        {"1":"Add cream, sweetener and cacao powder to a small mixing bowl."},
-        {"2":"With a hand mixer, whip cream until a stiff peak forms. Chill in the freezer for 25 minutes."},
-        {"3":"Whip the mixture with a hand mixer again and serve chilled!"}
-      ]
-  },
-  {
-      "id": 584495,
-      "title": "Chopped Kale Salad with Pomegranate & Avocado",
-      "readyInMinutes": 15,
-      "servings": 4,
-      "image": "Chopped-Kale-Salad-with-Pomegranate---Avocado-584495.jpg",
-      "imageUrls": [
-          "Chopped-Kale-Salad-with-Pomegranate---Avocado-584495.jpg"
-      ],
-      "ingredients":[
-        {"1":"3-4 large kale leaves stems removed, leaves chopped (about 5 cups)"},
-        {"2":"3/4 cups pomegranate seeds about 1 pomegranate"},
-        {"3":"1/2 avocado diced"},
-        {"4":"1/4 cup packed grated Parmesan cheese"}
-      ],
-      "recipe":[
-        {"1":"In a large bowl, combine the kale, pomegranate seeds, avocado and Parmesan cheese. Toss gently."},
-        {"2":"In a small bowl, whisk together the lemon juice, olive oil, agave nectar (or honey), salt and pepper."},
-        {"3":"Pour the dressing over the salad and toss to coat. Serve."}
+        "Add cream, sweetener and cacao powder to a small mixing bowl.",
+        "With a hand mixer, whip cream until a stiff peak forms. Chill in the freezer for 25 minutes.",
+        "Whip the mixture with a hand mixer again and serve chilled!"
       ]
   },
   {
@@ -275,44 +181,22 @@
           "Sweet-Potato-and-Black-Bean-Mexican-Salad-547899.jpg"
       ],
       "ingredients":[
-        {"1":"2 large sweet potatoes peeled and chopped"},
-        {"2":"1 tablespoon olive oil"},
-        {"3":"Salt and pepper to taste"},
-        {"4":"Romaine lettuce chopped"},
-        {"5":"1 15 oz black beans, rinsed and drained"},
-        {"6":"1 large tomato chopped"},
-        {"7":"1 cup corn fresh, frozen, or canned-rinsed and drained"},
-        {"8":"1 large avocado sliced"},
-        {"9":"1 cup chopped purple cabbage"},
-        {"10":"1/2 cup chopped cilantro"},
-        {"11":"1/4 cup chopped green onion"}
+        "2 large sweet potatoes peeled and chopped",
+        "1 tablespoon olive oil",
+        "Salt and pepper to taste",
+        "Romaine lettuce chopped",
+        "1 15 oz black beans, rinsed and drained",
+        "1 large tomato chopped",
+        "1 cup corn fresh, frozen, or canned-rinsed and drained",
+        "1 large avocado sliced",
+        "1 cup chopped purple cabbage",
+        "1/2 cup chopped cilantro",
+        "1/4 cup chopped green onion"
       ],
       "recipe":[
-        {"1":"Preheat oven to 400 degrees F. Place the chopped sweet potatoes on a large baking sheet. Drizzle with olive oil and toss. Season with salt and black pepper, to taste. Place sheet in the oven and roast for 20 minutes. Using a spatula, toss the sweet potatoes. Roast for an additional 15 minutes or until the sweet potatoes are tender. Remove from oven and set aside."},
-        {"2":"Place chopped lettuce in a large bowl. Top lettuce with roasted sweet potatoes, black beans, tomatoes, corn, avocado, purple cabbage, cilantro, and green onion. Squeeze fresh lime juice over the salad. Serve with salsa, pico de gallo or Creamy Avocado Dressing, if desired."},
-        {"3":"Note-I like to roast or grill the corn for the salad. This salad is very flexible. Feel free to add your favorite Mexican toppings to the mix. Don't use the avocado dressing if you need the salad to be vegan."}
-      ]
-  },
-  {
-      "id": 696698,
-      "title": "Tuscan-Style Tuna Salad",
-      "readyInMinutes": 10,
-      "servings": 4,
-      "image": "tuscan-style-tuna-salad-696698.jpg",
-      "imageUrls": [
-          "tuscan-style-tuna-salad-696698.jpg"
-      ],
-      "ingredients":[
-        {"1":"2 6-ounce cans chunk light tuna"},
-        {"2":"rained (see Note) 10 cherry tomatoes"},
-        {"3":"quartered 4 scallions"},
-        {"4":"sliced 2 tablespoons extra-virgin olive oil"},
-        {"5":"2 tablespoons lemon juice"},
-        {"6":"¼ teaspoon salt "},
-        {"7":"1 15-ounce can small white beans"}
-      ],
-      "recipe":[
-        {"1":"Combine tuna, beans, tomatoes, scallions, oil, lemon juice, salt and pepper in a medium bowl. Stir gently. Refrigerate until ready to serve."}
+        "Preheat oven to 400 degrees F. Place the chopped sweet potatoes on a large baking sheet. Drizzle with olive oil and toss. Season with salt and black pepper, to taste. Place sheet in the oven and roast for 20 minutes. Using a spatula, toss the sweet potatoes. Roast for an additional 15 minutes or until the sweet potatoes are tender. Remove from oven and set aside.",
+        "Place chopped lettuce in a large bowl. Top lettuce with roasted sweet potatoes, black beans, tomatoes, corn, avocado, purple cabbage, cilantro, and green onion. Squeeze fresh lime juice over the salad. Serve with salsa, pico de gallo or Creamy Avocado Dressing, if desired.",
+        "Note-I like to roast or grill the corn for the salad. This salad is very flexible. Feel free to add your favorite Mexican toppings to the mix. Don't use the avocado dressing if you need the salad to be vegan."
       ]
   },
   {
@@ -325,23 +209,17 @@
           "Smashed-White-Bean-and-Avocado-Sandwich-613079.jpg"
       ],
       "ingredients":[
-        
-        
-        
-        
-        
-        
-        {"1":"1 heaped tablespoon whole grain dijon mustard"},
-        {"2":"salt and pepper to taste"},
-        {"3":"1 15 oz can white beans, drained and rinsed"},
-        {"4":"1 avocado, sliced"},
-        {"5":"juice of half a lemon"},
-        {"6":"2 tablespoons fresh basil leaves, finely chopped"},
-        {"7":"for the sandwich (optional): baby spinach, romaine, arugula, tomato slices"}
+        "1 heaped tablespoon whole grain dijon mustard",
+        "salt and pepper to taste",
+        "1 15 oz can white beans, drained and rinsed",
+        "1 avocado, sliced",
+        "juice of half a lemon",
+        "2 tablespoons fresh basil leaves, finely chopped",
+        "for the sandwich (optional): baby spinach, romaine, arugula, tomato slices"
       ],
       "recipe":[
-        {"1":"Pour white beans into a large bowl and mashed a little with a potato masher. Add in the diced avocado and lemon juice, then mash until there are just a few chunks of bean and avocado left. Stir in the mustard, basil, salt and pepper, then taste and adjust flavors as necessary."},
-        {"2":"Spoon onto a sandwich, salad, veggie bowl, or just eat it as is! It's delicious any way!"}
+        "Pour white beans into a large bowl and mashed a little with a potato masher. Add in the diced avocado and lemon juice, then mash until there are just a few chunks of bean and avocado left. Stir in the mustard, basil, salt and pepper, then taste and adjust flavors as necessary.",
+        "Spoon onto a sandwich, salad, veggie bowl, or just eat it as is! It's delicious any way!"
       ]
   },
   {
@@ -354,45 +232,21 @@
           "Creamy-Broccoli-Spinach-Soup---A-Bowl-of-Green-512226.jpg"
       ],
       "ingredients":[
-        {"1":"4 stalks of celery, chopped"},
-        {"2":"1 head of broccoli, stalks peeled and stems and stalk coarsely chopped"},
-        {"3":"1 medium zucchini, chopped"},
-        {"4":"3oz/85g green beans, chopped"},
-        {"5":"1 large handful flat leaf parsley, stems removed"},
-        {"6":"2 cloves of garlic, grated"},
-        {"7":"1 green onion, chopped"},
-        {"8":"2 teaspoons extra virgin olive oil"},
-        {"9":"1 teaspoon fine seas salt"},
-        {"10":"4 cups/ ml filtered water"},
-        {"11":"3oz/85g baby spinach"}
+        "4 stalks of celery, chopped",
+       "1 head of broccoli, stalks peeled and stems and stalk coarsely chopped",
+        "1 medium zucchini, chopped",
+        "3oz/85g green beans, chopped",
+        "1 large handful flat leaf parsley, stems removed",
+        "2 cloves of garlic, grated",
+        "1 green onion, chopped",
+        "2 teaspoons extra virgin olive oil",
+        "1 teaspoon fine seas salt",
+        "4 cups/ ml filtered water",
+        "3oz/85g baby spinach"
       ],
       "recipe":[
-        {"1":"Place celery, broccoli, zucchini, green beans, parsley, garlic, green onion, olive oil, salt and water in a large soup or stock pot. Bring to a boil, lower heat and simmer for 10 minutes until vegetables are softened, stir in spinach and cook for another 5 minutes."},
-        {"2":"Blend soup (in batches if necessary) in a blender until smooth. Serve immediately."}
-      ]
-  },
-  {
-      "id": 264116,
-      "title": "Butternut Squash Soup",
-      "readyInMinutes": 35,
-      "servings": 2,
-      "image": "Butternut-Squash-Soup-264116.jpg",
-      "imageUrls": [
-          "Butternut-Squash-Soup-264116.jpg"
-      ],
-      "ingredients":[
-        {"1":"2 medium potatoes cubed"},
-        {"2":"2 tablespoons butter"},
-        {"3":"1 medium butternut squash - peeled, seeded"},
-        {"4":"cubed 1 (32 fluid ounce) container chicken stocksalt"},
-        {"5":"freshly ground black pepper to taste"},
-        {"6":"1 small onion"},
-        {"7":"chopped1 stalk celery, chopped"},
-        {"8":"1 medium carrot, chopped"}
-      ],
-      "recipe":[
-        {"1":"Melt the butter in a large pot, and cook the onion, celery, carrot, potatoes, and squash 5 minutes, or until lightly browned. Pour in enough of the chicken stock to cover vegetables. Bring to a boil. Reduce heat to low, cover pot, and simmer 40 minutes, or until all vegetables are tender."},
-        {"2":"Transfer the soup to a blender, and blend until smooth. Return to pot, and mix in any remaining stock to attain desired consistency. Season with salt and pepper."}
+        "Place celery, broccoli, zucchini, green beans, parsley, garlic, green onion, olive oil, salt and water in a large soup or stock pot. Bring to a boil, lower heat and simmer for 10 minutes until vegetables are softened, stir in spinach and cook for another 5 minutes.",
+       "Blend soup (in batches if necessary) in a blender until smooth. Serve immediately."
       ]
   },
   {
@@ -405,46 +259,21 @@
           "Vegetable-Stir-Fry-with-Endive---Shiitake-Mushrooms-584594.jpg"
       ],
       "ingredients":[
-        {"1":"2 teaspoons canola oil"},
-        {"2":"1 tablespoon minced fresh ginger"},
-        {"3":"3 cloves garlic minced"},
-        {"4":"8 ounces shiitake mushrooms sliced"},
-        {"5":"8 ounces crimini or Baby Bella mushrooms, sliced"},
-        {"6":"4 heads endive cut in half lengthwise, then sliced crosswise"},
-        {"7":"1 tablespoon + 2 teaspoons soy sauce"},
-        {"8":"3/4 teaspoon chili garlic sauce"}
+        "2 teaspoons canola oil",
+        "1 tablespoon minced fresh ginger",
+        "3 cloves garlic minced",
+        "8 ounces shiitake mushrooms sliced",
+        "8 ounces crimini or Baby Bella mushrooms, sliced",
+        "4 heads endive cut in half lengthwise, then sliced crosswise",
+        "1 tablespoon + 2 teaspoons soy sauce",
+        "3/4 teaspoon chili garlic sauce"
       ],
       "recipe":[
-        {"1":"Heat the canola oil in a large nonstick skillet set over medium-high heat."},
-        {"2":"Add the ginger and cook, stirring, for 1 minute. Add the garlic and cook for additional 30 seconds."},
-        {"3":"Add the shiitake and crimini mushrooms, and cook until the mushrooms are almost soft, about 3 minutes."},
-        {"4":"Add the endive and cook until tender, about 2 minutes."},
-        {"5":"Stir in the soy sauce and chili-garlic sauce. Serve."}
-      ]
-  },
-  {
-      "id": 482628,
-      "title": "Banana Berry Kale Smoothie",
-      "readyInMinutes": 10,
-      "servings": 2,
-      "image": "Banana-Berry-Kale-Smoothie-482628.jpg",
-      "imageUrls": [
-          "Banana-Berry-Kale-Smoothie-482628.jpg"
-      ],
-      "ingredients":[
-        {"1":"1 ripe banana"},
-        {"2":"1 c blueberries fresh or frozen"},
-        {"3":"2 c chopped kale or other leafy green"},
-        {"4":"1 c plain low fat yogurt"},
-        {"5":"1 tsp cinnamon"},
-        {"6":"1 pinch nutmeg"},
-        {"7":"1 tsp fresh ginger grated"},
-        {"8":"2 packets stevia"},
-        {"9":"2 handfuls ice"}
-      ],
-      "recipe":[
-        {"1":"Place everything but the ice in a blender and puree until smooth."},
-        {"2":"Add ice and blend again for 1 minute or until smooth."}
+        "Heat the canola oil in a large nonstick skillet set over medium-high heat.",
+        "Add the ginger and cook, stirring, for 1 minute. Add the garlic and cook for additional 30 seconds.",
+        "Add the shiitake and crimini mushrooms, and cook until the mushrooms are almost soft, about 3 minutes.",
+        "Add the endive and cook until tender, about 2 minutes.",
+        "Stir in the soy sauce and chili-garlic sauce. Serve."
       ]
   },
   {
@@ -457,31 +286,31 @@
           "Creamy-Butternut-Squash-Pasta-Skillet-612082.jpg"
       ],
       "ingredients":[
-        {"1":"16 ounces whole wheat pasta shells"},
-        {"2":"1 tablespoon olive oil"},
-        {"3":"1 medium onion, chopped"},
-        {"4":"2 cloves garlic, minced"},
-        {"5":"1 large carrot, peeled and chopped"},
-        {"6":"4 ounces baby bella mushrooms, sliced"},
-        {"7":"3 cups bite-sized pieces of kale (stems removed before chopping!)"},
-        {"8":"1 ½ cups butternut squash puree (homemade or store-bought)"},
-        {"9":"1 cup 2% milk"},
-        {"10":"½ cup low-sodium vegetable broth"},
-        {"11":"1 tablespoon minced fresh rosemary"},
-        {"12":"1 tablespoon minced fresh sage leaves"},
-        {"13":"1 ½ cups freshly shredded provolone cheese, divided"},
-        {"14":"salt and pepper, to taste"},
-        {"15":"¼ cup freshly grated parmesan cheese"},
-        {"16":"⅓ cup raw walnuts, finely chopped"}
+        "16 ounces whole wheat pasta shells",
+        "1 tablespoon olive oil",
+        "1 medium onion, chopped",
+        "2 cloves garlic, minced",
+        "1 large carrot, peeled and chopped",
+        "4 ounces baby bella mushrooms, sliced",
+        "3 cups bite-sized pieces of kale (stems removed before chopping!)",
+        "1 ½ cups butternut squash puree (homemade or store-bought)",
+        "1 cup 2% milk",
+        "½ cup low-sodium vegetable broth",
+        "1 tablespoon minced fresh rosemary",
+        "1 tablespoon minced fresh sage leaves",
+       "1 ½ cups freshly shredded provolone cheese, divided",
+        "salt and pepper, to taste",
+        "¼ cup freshly grated parmesan cheese",
+        "⅓ cup raw walnuts, finely chopped"
       ],
       "recipe":[
-        {"1":"Preheat the oven to 350ºF."},
-        {"2":"Bring a large pot of lightly salted water to a boil. Add in the pasta and cook according to the package directions until al dente. Drain and set aside."},
-        {"3":"Meanwhile, set a large oven-safe skillet over medium heat. Add in the olive oil. When hot, add in the onion and cook for about 2 minutes, until it starts to soften. Add in the garlic and cook for 30 seconds, until fragrant. Add in the carrot and mushrooms. Cook for about 5 minutes until tender. Add in the kale and cook for about 1 to 2 minutes, until bright green and slightly wilted."},
-        {"4":"Add in the butternut squash puree, milk, vegetable broth, rosemary and sage. Mix until combined then bring the mixture to a gentle simmer (increasing the heat slightly). Let the mixture simmer gently for about 3 to 4 minutes, stirring fairly often, until it thickens up a bit (it won’t be super thick - just saucy). Turn off the heat."},
-        {"5":"Add in the drained pasta and ½ cup of the provolone cheese. Mix until combined. Taste and season with salt / pepper (I usually add about ½ teaspoon salt, ¼ teaspoon pepper)."},
-        {"6":"Top with the remaining 1 cup provolone, the parmesan and the walnuts."},
-        {"7":"Transfer the skillet to the oven and bake for about 8 to 10 minutes, until the cheese is nice and melted."}
+        "Preheat the oven to 350ºF.",
+        "Bring a large pot of lightly salted water to a boil. Add in the pasta and cook according to the package directions until al dente. Drain and set aside.",
+        "Meanwhile, set a large oven-safe skillet over medium heat. Add in the olive oil. When hot, add in the onion and cook for about 2 minutes, until it starts to soften. Add in the garlic and cook for 30 seconds, until fragrant. Add in the carrot and mushrooms. Cook for about 5 minutes until tender. Add in the kale and cook for about 1 to 2 minutes, until bright green and slightly wilted.",
+        "Add in the butternut squash puree, milk, vegetable broth, rosemary and sage. Mix until combined then bring the mixture to a gentle simmer (increasing the heat slightly). Let the mixture simmer gently for about 3 to 4 minutes, stirring fairly often, until it thickens up a bit (it won’t be super thick - just saucy). Turn off the heat.",
+        "Add in the drained pasta and ½ cup of the provolone cheese. Mix until combined. Taste and season with salt / pepper (I usually add about ½ teaspoon salt, ¼ teaspoon pepper).",
+        "Top with the remaining 1 cup provolone, the parmesan and the walnuts.",
+        "Transfer the skillet to the oven and bake for about 8 to 10 minutes, until the cheese is nice and melted."
       ]
   },
   {
@@ -494,76 +323,21 @@
           "hummus-and-grilled-vegetable-wrap-749594.jpeg"
       ],
       "ingredients":[
-        {"1":"2 medium zucchini, cut lengthwise into 1/4-inch slices"},
-        {"2":"2 teaspoons olive oil"},
-        {"3":"1/8 teaspoon salt"},
-        {"4":"Pinch freshly ground black pepper"},
-        {"5":"1 cup store-bought hummus"},
-        {"6":"4 pieces whole-wheat wrap bread (about 9 inches in diameter)"},
-        {"7":"1/4 cup pine nuts, toasted"},
-        {"8":"1 medium red bell pepper, thinly sliced"},
-        {"9":"2 ounces baby spinach leaves (2 cups lightly packed)"},
-        {"10":"1/2 cup red onion thinly sliced into half moons"},
-        {"11":"1/4 cup fresh mint leaves"}
+        "2 medium zucchini, cut lengthwise into 1/4-inch slices",
+        "2 teaspoons olive oil",
+        "1/8 teaspoon salt",
+        "Pinch freshly ground black pepper",
+        "1 cup store-bought hummus",
+        "4 pieces whole-wheat wrap bread (about 9 inches in diameter)",
+        "1/4 cup pine nuts, toasted",
+        "1 medium red bell pepper, thinly sliced",
+        "2 ounces baby spinach leaves (2 cups lightly packed)",
+        "1/2 cup red onion thinly sliced into half moons",
+        "1/4 cup fresh mint leaves"
       ],
       "recipe":[
-        {"1":"Preheat the grill or grill pan over medium heat. Brush both sides of the zucchini slices with the oil and sprinkle with the salt and pepper. Grill until tender and slightly browned, about 4 minutes per side."},
-        {"2":"Spread 1/4 cup of the hummus over each piece of bread. Sprinkle 1 tablespoon of pine nuts on top. Top with 3 slices of zucchini, 2 pieces of red pepper, 1/2 cup of the spinach, a few sliced onions, and 1 tablespoon of the mint. Roll each of them up and cut in half on a diagonal."}
-      ]
-  },
-  {
-      "id": 551703,
-      "title": "Quinoa Lentil Salad - Roasted Brussels Sprouts",
-      "readyInMinutes": 45,
-      "servings": 8,
-      "image": "Quinoa-Lentil-Salad---Roasted-Brussels-Sprouts-551703.jpg",
-      "imageUrls": [
-          "Quinoa-Lentil-Salad---Roasted-Brussels-Sprouts-551703.jpg"
-      ],
-      "ingredients":[
-        {"1":"1 1/4 cup dried lentils, any color"},
-        {"2":"2/3 cup dried quinoa"},
-        {"3":"3 cups water"},
-        {"4":"3/4 tsp. curry powder"},
-        {"5":"8 oz. brussels sprouts"},
-        {"6":"1 cup thinly sliced shallots (about 3-4)"},
-        {"7":"2 Tb. olive oil"},
-        {"8":"1/2 cup DeLallo Sun-Dried Peppers, chopped"},
-        {"9":"1/2 cup chopped scallions"},
-        {"10":"1/2 lemon, juiced"},
-        {"11":"Salt and pepper"}
-      ],
-      "recipe":[ 
-        {"1":"Preheat the oven to 400 degrees F."},
-        {"2":"Place the quinoa and lentils in a medium stockpot with 3 cups of water, 1 tsp. salt, and 3/4 tsp. curry powder. Bring to a boil, then cover and reduce the heat to medium-low. Cook for 25-30 minutes until the quinoa is fluffy and the lentils are cooked, but firm. Remove from heat, but keep covered until ready to use."},
-        {"3":"Meanwhile, cut the brussels sprouts in half and slice thin. Place them on a rimmed baking sheet with the sliced shallots and drizzle with olive oil. Toss to coat then spread them out thin and salt and pepper. Bake for 20-25 minutes, until crispy."},
-        {"4":"Fluff the quinoa and lentils and move to a large bowl."},
-        {"5":"Add the crispy brussels sprouts and shallots, chopped sweet peppers, chopped scallions, and the juice of half a lemon. Toss and salt and pepper to taste. Serve immediately."}
-      ]
-  },
-  {
-      "id": 496225,
-      "title": "Super Simple Roasted Broccoli",
-      "readyInMinutes": 35,
-      "servings": 2,
-      "image": "Super-Simple-Roasted-Broccoli-496225.jpg",
-      "imageUrls": [
-          "Super-Simple-Roasted-Broccoli-496225.jpg"
-      ],
-      "ingredients":[
-        {"1":"1 head of broccoli"},
-        {"2":"1 large garlic clove minced"},
-        {"3":"2-3 T olive oil"},
-        {"4":" Juice from 1 small lemon (about 2 tablespoons)"},
-        {"5":"salt and pepper to taste"}
-      ],
-      "recipe":[
-        {"1":"Preheat oven to 350"},
-        {"2":"Cut the broccoli into florets. (Save the stalks for homemade vegetable broth .)"},
-        {"3":"Add the broccoli and the remaining ingredients to a Zip-Lock bag."},
-        {"4":"Shake until everything is well coated"},
-        {"5":"Spread broccoli on a lined baking sheet."},
-        {"6":"Bake for 25-30 minutes, stopping once to turn the broccoli over."}
+        "Preheat the grill or grill pan over medium heat. Brush both sides of the zucchini slices with the oil and sprinkle with the salt and pepper. Grill until tender and slightly browned, about 4 minutes per side.",
+        "Spread 1/4 cup of the hummus over each piece of bread. Sprinkle 1 tablespoon of pine nuts on top. Top with 3 slices of zucchini, 2 pieces of red pepper, 1/2 cup of the spinach, a few sliced onions, and 1 tablespoon of the mint. Roll each of them up and cut in half on a diagonal."
       ]
   },
   {
@@ -576,53 +350,22 @@
           "Three-Color-Pasta-with-Sun-Dried-Tomato-Sauce-500803.jpg"
       ],
       "ingredients":[
-        {"1":"1 medium carrot"},
-        {"2":"1 small-medium zucchini"},
-        {"3":"2 ounces whole wheat spaghetti (a small handful)*"},
-        {"4":"1/3-1/2 cup tomato sauce"},
-        {"5":"3 Tbsp sun dried tomato spread (or pureed sun-dried tomatoes)"},
-        {"6":"Vegan parmesan cheese (optional)"},
-        {"7":"Fresh basil (optional)"}
+       "1 medium carrot",
+        "1 small-medium zucchini",
+        "2 ounces whole wheat spaghetti (a small handful)*",
+        "1/3-1/2 cup tomato sauce",
+       "3 Tbsp sun dried tomato spread (or pureed sun-dried tomatoes)",
+        "Vegan parmesan cheese (optional)",
+        "Fresh basil (optional)"
       ],
       "recipe":[
-        {"1":"Cook the noodles according to package instructions, shooting for al dente."},
-        {"2":"Rinse and peel any rough skin spots from the carrot and zucchini. Then continue using the peeler to ‘ribbon’ them into noodles."},
-        {"3":"Combine and warm your tomato sauce and sun dried tomato spread in a medium saucepan over low-medium heat, stirring to combine and adding a little water if too thick."},
-        {"4":"Once noodles are done, scoop them into a strainer (reserving the water) and cover with towel to keep them moist."},
-        {"5":"Place zucchini and carrot noodles in the pasta water and boil for 3-4 minutes until tender or ‘al dente.’"},
-        {"6":"Add pasta noodles and vegetable noodles into the sauce, toss lightly and serve immediately."},
-        {"7":"Garnish with vegan parmesan cheese and basil for additional flavor."}
-      ]
-  },
-  {
-      "id": 588272,
-      "title": "Spicy thai carrot and kale salad",
-      "readyInMinutes": 10,
-      "servings": 4,
-      "image": "Spicy-thai-carrot-and-kale-salad-588272.jpg",
-      "imageUrls": [
-          "Spicy-thai-carrot-and-kale-salad-588272.jpg"
-      ],
-      "ingredients":[
-        {"1":"3 cups carrot strings using a"},
-        {"2":"julienne peeler"},
-        {"3":"2 cups thinly sliced tuscan kale"},
-        {"4":"3 tablespoons creamy peanut butter"},
-        {"5":"1½ teaspoons sriracha"},
-        {"6":"3 tablespoons almond milk"},
-        {"7":"½ teaspoon sesame oil"},
-        {"8":"½ teaspoon extra virgin olive oil"},
-        {"9":"½ teaspoon apple cider vinegar"},
-        {"10":"½ tablespoon maple syrup"},
-        {"11":"½ teaspoon freshly grated ginger"},
-        {"12":"pinch of salt,sesame seeds for garnish"}
-      ],
-      "recipe":[
-        {"1":"Toss carrots and kale together in a large bowl."},
-        {"2":"Whisk together the remaining ingredients except sesame seeds in a small bowl."},
-        {"3":"Add more milk if necessary to get the desired consistency."},
-        {"4":"Pour dressing on top of the carrots and kale and toss until fully coated."},
-        {"5":"Garnish with sesame seeds and serve."}
+        "Cook the noodles according to package instructions, shooting for al dente.",
+        "Rinse and peel any rough skin spots from the carrot and zucchini. Then continue using the peeler to ‘ribbon’ them into noodles.",
+        "Combine and warm your tomato sauce and sun dried tomato spread in a medium saucepan over low-medium heat, stirring to combine and adding a little water if too thick.",
+        "Once noodles are done, scoop them into a strainer (reserving the water) and cover with towel to keep them moist.",
+        "Place zucchini and carrot noodles in the pasta water and boil for 3-4 minutes until tender or ‘al dente.’",
+        "Add pasta noodles and vegetable noodles into the sauce, toss lightly and serve immediately.",
+        "Garnish with vegan parmesan cheese and basil for additional flavor."
       ]
   },
   {
@@ -635,99 +378,21 @@
           "Roasted-Potatoes-With-Garlic-Sauce-559162.jpg"
       ],
       "ingredients":[
-        {"1":"Garlic – 1 entire head, peeled. Believe me you’ll need fresh garlic for this recipe."},
-        {"2":"Olive oil – To emulsify our sauce and create a cohesive condiment to drizzle over our potatoes."},
-        {"3":"Parsley – Fresh and chopped up fine."},
-        {"4":"Salt – To season our sauce, this element is very important so be sure not to skip the seasoning!"},
-        {"5":"Water – To thin out our sauce a and achieve the consistency we’re looking for."},
-        {"6":"Potatoes – Feel free to use your favorite potatoes for roasting, whatever those may be. Just be sure to clean them and peel them. Before chopping them up into bite sized pieces."},
-        {"7":"Seasoning – Salt and pepper, be sure to season every level of our dish."},
-        {"8":"Olive oil – We need an oil to ensure our pieces of potato crisp up nicely in the oven."}
+        "Garlic – 1 entire head, peeled. Believe me you’ll need fresh garlic for this recipe.",
+        "Olive oil – To emulsify our sauce and create a cohesive condiment to drizzle over our potatoes.",
+        "Parsley – Fresh and chopped up fine.",
+        "Salt – To season our sauce, this element is very important so be sure not to skip the seasoning!",
+        "Water – To thin out our sauce a and achieve the consistency we’re looking for.",
+        "Potatoes – Feel free to use your favorite potatoes for roasting, whatever those may be. Just be sure to clean them and peel them. Before chopping them up into bite sized pieces.",
+        "Seasoning – Salt and pepper, be sure to season every level of our dish.",
+        "Olive oil – We need an oil to ensure our pieces of potato crisp up nicely in the oven."
       ],
       "recipe":[
-        {"1":"Preheat oven: To 400 F degrees."},
-        {"2":"Form the sauce: Put the garlic and salt in a mortar and pestle and crush the garlic until it becomes a paste. Add the oil, parsley and water to the garlic and mix well. Set aside."},
-        {"3":"Prepare the potatoes: Cut up the potatoes into wedges or cubes. Transfer the potatoes to a baking sheet, season with salt and pepper, drizzle with olive oil and add half of the garlic sauce over them. Toss them well then cover with aluminum foil and bake for 30 minutes covered, after 30 minutes remove the aluminum foil and bake for another 30 minutes until they turn crispy and golden brown."},
-        {"4":"Finish the dish: Before serving, pour garlic sauce over the hot potatoes or use the sauce as a dip."},
-        {"5":"freshly diced potatoes tossed in herbs and garlic on a baking sheet"}
-      ]
-  },
-  {
-      "id": 536055,
-      "title": "Garlic Mushroom Quinoa",
-      "readyInMinutes": 35,
-      "servings": 4,
-      "image": "Garlic-Mushroom-Quinoa-536055.jpg",
-      "imageUrls": [
-          "Garlic-Mushroom-Quinoa-536055.jpg"
-      ],
-      "ingredients":[  
-        {"1":"1 cup quinoa"},
-        {"2":"1 tablespoon olive oil"},
-        {"3":"1 pound cremini mushrooms, thinly sliced"},
-        {"4":"5 cloves garlic, minced"},
-        {"5":"1/2 teaspoon dried thyme"},
-        {"6":"Kosher salt and freshly ground black pepper, to taste"},
-        {"7":"2 tablespoons grated Parmesan"}
-      ],
-      "recipe":[
-        {"1":"In a large saucepan of 2 cups water, cook quinoa according to package instructions; set aside."},
-        {"2":" Heat olive oil in a large skillet over medium high heat. Add mushrooms, garlic and thyme, and cook, stirring occasionally, until tender, about 3-4 minutes; season with salt and pepper, to taste. Stir in quinoa until well combined."},
-        {"3":"Serve immediately, garnished with Parmesan, if desired."}
-      ]
-  },
-  {
-      "id": 578138,
-      "title": "Quick black bean dip",
-      "readyInMinutes": 5,
-      "servings": 3,
-      "image": "Quick-black-bean-dip-578138.jpg",
-      "imageUrls": [
-          "Quick-black-bean-dip-578138.jpg"
-      ],
-      "ingredients":[ 
-        {"1":"30 ounces (2 cans) black beans rinsed and drained"},
-        {"2":"1/2 cup chopped yellow onion"},
-        {"3":"1/3 cup chopped cilantro"},
-        {"4":"1 clove garlic minced"},
-        {"5":"1 small jalapeño seeds removed and diced"},
-        {"6":"2 tablespoons fresh lime juice"},
-        {"7":"1/4 teaspoon ground cumin"},
-        {"8":"1/4 teaspoon chili powder"},
-        {"9":"1/2 teaspoon kosher salt"},
-        {"10":"1/4 teaspoon black pepper"},
-        {"11":"2 tablespoons cotija cheese for garnish, optional"}
-      ],
-      "recipe":[
-        {"1":"Put the black beans, onion, cilantro, garlic, jalapeño, lime juice, cumin, chili powder, salt, and black pepper in a food processor or blender."},
-        {"2":" Blend until smooth."},
-        {"3":"Pour the black bean dip in a bowl and garnish with cotija cheese, if using."},
-        {"4":"Serve with tortilla chips and/or cut up vegetables."},
-        {"5":"Note-omit the cheese garnish for a vegan dip. This dip is gluten free, just serve with gluten free chips/crackers."}
-      ]
-  },
-  {
-      "id": 556911,
-      "title": "Chocolate Peanut Butter Protein Shake",
-      "readyInMinutes": 1,
-      "servings": 1,
-      "image": "Chocolate-Peanut-Butter-Protein-Shake-556911.jpg",
-      "imageUrls": [
-          "Chocolate-Peanut-Butter-Protein-Shake-556911.jpg"
-      ],
-      "ingredients":[
-        {"1":"1 cup almond milk"},
-        {"2":"1 tbsp creamy peanut butter"},
-        {"3":"1 ripe banana can be frozen, broken into large chunks"},
-        {"4":"1/4 tsp ground cinnamon"},
-        {"5":"1 scoop chocolate whey protein powder"},
-        {"6":"5-10 ice cubes depending on how thick you like it"},
-        {"7":"optional: 1 tsp. honey"}
-      ],
-      "recipe":[
-        {"1":"Add all ingredients in blender, starting with the almond milk."},
-        {"2":"Blend until smooth."},
-        {"3":"If too thick, add more milk. If too thin, add some more ice."}
+        "Preheat oven: To 400 F degrees.",
+        "Form the sauce: Put the garlic and salt in a mortar and pestle and crush the garlic until it becomes a paste. Add the oil, parsley and water to the garlic and mix well. Set aside.",
+        "Prepare the potatoes: Cut up the potatoes into wedges or cubes. Transfer the potatoes to a baking sheet, season with salt and pepper, drizzle with olive oil and add half of the garlic sauce over them. Toss them well then cover with aluminum foil and bake for 30 minutes covered, after 30 minutes remove the aluminum foil and bake for another 30 minutes until they turn crispy and golden brown.",
+        "Finish the dish: Before serving, pour garlic sauce over the hot potatoes or use the sauce as a dip.",
+        "freshly diced potatoes tossed in herbs and garlic on a baking sheet"
       ]
   },
   {
@@ -740,26 +405,26 @@
           "gobi-pakora---how-to-make-gobi-pakoras-or-cauliflower-fritters-488633.jpg"
       ],
       "ingredients":[
-        {"1":"3 cup cauliflower florets (cut into about 1 inch florets)"},
-        {"2":"1/3 cup besan (gram flour )"},
-        {"3":"3 Tbsp corn starch (arrow root)"},
-        {"4":"2 tsp coriander powder (dhania)"},
-        {"5":"1/2 tsp cumin seeds (jeera)"},
-        {"6":"1/4 tsp red chili powder"},
-        {"7":"1/8 tsp baking soda"},
-        {"7":"1/2 tsp salt"},
-        {"7":"1 tsp ginger paste"},
-        {"7":"1 green chili (finely chopped)"},
-        {"7":"2 Tbsp cilantro (finely chopped, hara dhania)"}
+        "3 cup cauliflower florets (cut into about 1 inch florets)",
+        "1/3 cup besan (gram flour )",
+        "3 Tbsp corn starch (arrow root)",
+        "2 tsp coriander powder (dhania)",
+        "1/2 tsp cumin seeds (jeera)",
+        "1/4 tsp red chili powder",
+        "1/8 tsp baking soda",
+        "1/2 tsp salt",
+        "1 tsp ginger paste",
+        "1 green chili (finely chopped)",
+        "2 Tbsp cilantro (finely chopped, hara dhania)"
       ],
       "recipe":[ 
-        {"1":"Boil the cauliflowers, add just enough water to cover the cauliflowers. After water comes to boil, cook for about 5 minutes over medium heat. Turn off the heat and drain the water. Let cauliflowers come to room temperature. Cauliflower should be just little tender, not soft."},
-        {"2":"In a bowl mix all the ingredients together, besan, corn starch, coriander powder, cumin seeds, red chili powder, salt, baking soda, ginger, green chili and cilantro. Mix it well."},
-        {"3":"Sprinkle the dry mix over cauliflower, gently mix it coating all the cauliflower with spices, add water little at a time as needed, I used about ¼ cup of water."},
-        {"4":"Heat the oil in a frying pan on medium high heat. The frying pan should have about 1 inch of oil. To check if the oil is ready, put little batter in the oil. The batter should raise to the top but not change color right away."},
-        {"5":"Drop the cauliflower slowly in the oil making sure don’t overlap them."},
-        {"6":"Fry the cauliflowers until they turn golden brown, turning them occasionally. This should take about 6-8 minutes."},
-        {"7":"When they are golden brown, take them out with a slotted spoon. Place them on a paper towel to absorb the extra oil. "}
+        "Boil the cauliflowers, add just enough water to cover the cauliflowers. After water comes to boil, cook for about 5 minutes over medium heat. Turn off the heat and drain the water. Let cauliflowers come to room temperature. Cauliflower should be just little tender, not soft.",
+        "In a bowl mix all the ingredients together, besan, corn starch, coriander powder, cumin seeds, red chili powder, salt, baking soda, ginger, green chili and cilantro. Mix it well.",
+        "Sprinkle the dry mix over cauliflower, gently mix it coating all the cauliflower with spices, add water little at a time as needed, I used about ¼ cup of water.",
+        "Heat the oil in a frying pan on medium high heat. The frying pan should have about 1 inch of oil. To check if the oil is ready, put little batter in the oil. The batter should raise to the top but not change color right away.",
+        "Drop the cauliflower slowly in the oil making sure don’t overlap them.",
+        "Fry the cauliflowers until they turn golden brown, turning them occasionally. This should take about 6-8 minutes.",
+        "When they are golden brown, take them out with a slotted spoon. Place them on a paper towel to absorb the extra oil. "
       ]
   },
   {
@@ -772,22 +437,22 @@
           "massaged-kale-salad-with-avocado-and-pickled-red-onions-814122.jpg"
       ],
       "ingredients":[
-        {"1":"1 leaves head red kale finely chopped"},
-        {"2":"4 tablespoons lemon juice separated"},
-        {"3":"4 tablespoons olive oil"},
-        {"4":"1 teaspoon sea salt"},
-        {"5":"1 large ripe avocado peeled and diced"},
-        {"6":"1/3 cup pickled red onions*"},
-        {"7":"2 tablespoons sunflower seeds"}
+        "1 leaves head red kale finely chopped",
+        "4 tablespoons lemon juice separated",
+        "4 tablespoons olive oil",
+        "1 teaspoon sea salt",
+        "1 large ripe avocado peeled and diced",
+        "1/3 cup pickled red onions*",
+        "2 tablespoons sunflower seeds"
       ],
       "recipe":[  
-        {"1":"Wash the kale leaves and pat them dry.Remove the leaves from the stems and finely chop the leaves (you can save the stems for smoothies or feed them to your dog!)."},
-        {"2":" Place the kale leaves in a large serving bowl and add half the lemon juice. Massage the kale leaves (taking large amounts in your palms as though you're ringing out a dish towel) until they begin to wilt and soften, about 2 to 3 minutes."},
-        {"3":"Allow the leaves to sit 10 minutes to soften further."},
-        {"4":"In a small bowl, whisk together the remaining lemon juice, olive oil, and sea salt."},
-        {"5":" Pour dressing over the salad."},
-        {"6":"Add the diced avocado, pickled red onions, and sunflower seeds, and toss everything together until well combined. "},
-        {"7":"Serve alongside your favorite entree, and enjoy!"}
+        "Wash the kale leaves and pat them dry.Remove the leaves from the stems and finely chop the leaves (you can save the stems for smoothies or feed them to your dog!).",
+        " Place the kale leaves in a large serving bowl and add half the lemon juice. Massage the kale leaves (taking large amounts in your palms as though you're ringing out a dish towel) until they begin to wilt and soften, about 2 to 3 minutes.",
+        "Allow the leaves to sit 10 minutes to soften further.",
+        "In a small bowl, whisk together the remaining lemon juice, olive oil, and sea salt.",
+        " Pour dressing over the salad.",
+        "Add the diced avocado, pickled red onions, and sunflower seeds, and toss everything together until well combined. ",
+        "Serve alongside your favorite entree, and enjoy!"
       ]
   },
   {
@@ -800,15 +465,15 @@
           "zucchini-noodles-with-creamy-avocado-pesto-780510.jpg"
       ],
       "ingredients":[
-        {"1":"6 large zucchini, spiralized"},
-        {"2":"1 Tbsp olive oil"},
-        {"3":"2 ripe avocados"},
-        {"4":"1 cup fresh basil leaves"},
-        {"5":"3 cloves garlic"},
-        {"6":"¼ cup pine nuts"},
-        {"7":"2 Tbsp lemon juice"},
-        {"8":"½ tsp. sea salt"},
-        {"9":"3 Tbsp olive oil"}
+        "6 large zucchini, spiralized",
+        "1 Tbsp olive oil",
+        "2 ripe avocados",
+        "1 cup fresh basil leaves",
+        "3 cloves garlic",
+        "¼ cup pine nuts",
+        "2 Tbsp lemon juice",
+        "½ tsp. sea salt",
+        "3 Tbsp olive oil"
       ],
       "recipe":[
         {"1":"Spiralize your zucchini and set aside on paper towels so that any excess water is soaked up."},
@@ -827,58 +492,23 @@
           "Garlicky-Lemon-Grilled-Fish-Packets-483358.jpg"
       ],
       "ingredients":[
-        {"1":"1 medium onion sliced"},
-        {"2":"1 c green beans cut in 1 in. pieces"},
-        {"3":"1 medium summer squash I used kousa"},
-        {"4":"1 juice of lemon"},
-        {"5":"2 cloves garlic minced"},
-        {"6":"2 tilapia filets"},
-        {"7":"1/4 c fresh parsley chopped"},
-        {"8":"salt and pepper"}
+        "1 medium onion sliced",
+        "1 c green beans cut in 1 in. pieces",
+        "1 medium summer squash I used kousa",
+        "1 juice of lemon",
+        "2 cloves garlic minced",
+        "2 tilapia filets",
+        "1/4 c fresh parsley chopped",
+        "salt and pepper"
       ],
       "recipe":[
-        {"1":"Heat grill on high.Tear our 4 pieces of foil and lay two pieces on top of one another."},
-        {"2":"Spray center of foil with a little non-stick cooking spray to prevent the fish from sticking.In a medium bowl, combine onion slices, green beans and summer squash."},
-        {"3":"Add juice of 1 lemon, garlic and salt and pepper to taste.Season tilapia filets with salt and pepper on each side and place each portion in center of the foil."},
-        {"4":"Top each piece of fish with equal parts of the vegetable mixture.Sprinkle fresh parsley on top of the vegetables before sealing."},
-        {"5":"Bring the two wide ends of the foil together and fold to seal."},
-        {"6":"Gently fold in the smaller ends of the packet and continue to fold until tightly secured. Leave a bit of room in the packet for steam to form."},
-        {"7":"Grill for 5-7 minutes, turning once.Garnish with fresh parsley and lemon juice before serving."}
-      ]
-  },
-  {
-      "id": 586489,
-      "title": "Roasted Eggplant and Lentil Soup",
-      "readyInMinutes": 50,
-      "servings": 6,
-      "image": "Roasted-Eggplant-and-Lentil-Soup-586489.jpg",
-      "imageUrls": [
-          "Roasted-Eggplant-and-Lentil-Soup-586489.jpg"
-      ],
-      "ingredients":[
-        {"1":"2 small eggplants, quartered"},
-        {"2":"3 cups water"},
-        {"3":"1 1/2 cups lentils"},
-        {"4":"2 tablespoons ras el hanout"},
-        {"5":"1 lemon, juice"},
-        {"6":"1/4 cup parsley, chopped"},
-        {"7":"1 container Yoplait Greek blended coconut yogurt"},
-        {"8":"1 leek, sliced"},
-        {"9":"2 celery ribs, finely chopped"},
-        {"10":"3 cups chicken stock"},
-        {"11":"3 plum tomatoes, quartered"},
-        {"12":"4 garlic cloves, peeled"},
-        {"13":"2 tablespoons olive oil, divided"},
-        {"14":"3 carrots, peeled and diced"}
-      ],
-      "recipe":[
-        {"1":"Heat oven to 450ºF. "},
-        {"2":"Arrange the eggplant, tomatoes, and garlic in a single layer on a baking sheet; drizzle with 1 tablespoon olive oil. "},
-        {"3":"Roast 20 minutes or until very tender."},
-        {"4":" Scoop the pulp out of the eggplant and discard the peel. Chop the tomatoes and garlic to form a chunky sauce."},
-        {"5":"Meanwhile, heat the remaining olive oil in a large soup pot. Add the carrot, leek and celery and cook for 5 minutes, or until soft."},
-        {"6":"Add the chicken stock, water, lentils, and ras el hanout. Cover and let simmer 30 minutes, or until lentils are tender. Stir in the eggplant, chopped tomatoes and lemon juice and cook an additional 10 minutes. Stir in parsley. Adjust seasoning to taste."},
-        {"7":"Serve soup topped with a generous dollop of coconut yogurt (or just stir it right into the whole pot)"}
+        "Heat grill on high.Tear our 4 pieces of foil and lay two pieces on top of one another.",
+        "Spray center of foil with a little non-stick cooking spray to prevent the fish from sticking.In a medium bowl, combine onion slices, green beans and summer squash.",
+        "Add juice of 1 lemon, garlic and salt and pepper to taste.Season tilapia filets with salt and pepper on each side and place each portion in center of the foil.",
+        "Top each piece of fish with equal parts of the vegetable mixture.Sprinkle fresh parsley on top of the vegetables before sealing.",
+        "Bring the two wide ends of the foil together and fold to seal.",
+        "Gently fold in the smaller ends of the packet and continue to fold until tightly secured. Leave a bit of room in the packet for steam to form.",
+        "Grill for 5-7 minutes, turning once.Garnish with fresh parsley and lemon juice before serving."
       ]
   },
   {
@@ -891,18 +521,18 @@
           "Sweet-Chili-Chicken-Salad-248799.jpg"
       ],
       "ingredients":[
-        {"1":"2 cups chicken, cooked and shredded"},
-        {"2":"4 cups lettuce, sliced"},
-        {"3":"2 cups bean sprout"},
-        {"4":"1/2 red pepper, sliced thinly"},
-        {"5":"1/2 cup carrot, sliced thinly"},
-        {"6":"1 cup cucumber, sliced"},
-        {"7":"2 green onions, sliced"},
-        {"8":"peanuts to taste, toasted and chopped"},
-        {"8":"1/4 cup sweet chili dressing"}
+        "2 cups chicken, cooked and shredded",
+        "4 cups lettuce, sliced",
+        "2 cups bean sprout",
+        "1/2 red pepper, sliced thinly",
+        "1/2 cup carrot, sliced thinly",
+        "1 cup cucumber, sliced",
+        "2 green onions, sliced",
+        "peanuts to taste, toasted and chopped",
+        "1/4 cup sweet chili dressing"
       ],
       "recipe":[
-        {"1":"Toss everything and enjoy!"}
+        "Toss everything and enjoy!"
       ]
   },
   {
@@ -915,27 +545,27 @@
           "Open-Faced-Veggie-Quesadilla-with-Avocado-Salsa-Cream-584481.jpg"
       ],
       "ingredients":[
-        {"1":"4 whole Flour Tortillas"},
-        {"2":"2 Tablespoons Olive Oil"},
-        {"3":"1 whole Onion, Thinly Sliced"},
-        {"4":"¼ teaspoons Salt To Taste"},
-        {"5":"½ cups Green Bell Pepper, Diced"},
-        {"6":"½ cups Yellow Bell Pepper, Diced"},
-        {"7":"½ cups Red Bell Pepper, Diced"},
-        {"8":"½ cups Black Olives, Chopped"},
-        {"9":"¼ cups Enchilada Sauce"},
-        {"10":"½ cups Black Olives, Chopped"},
-        {"10":"1 cup Shredded Monterey Jack Cheese"},
-        {"10":"¼ cups Fresh Cilantro, Chopped"},
-        {"10":"¼ cups Sour Cream For Garnish"}
+        "4 whole Flour Tortillas",
+        "2 Tablespoons Olive Oil",
+        "1 whole Onion, Thinly Sliced",
+        "¼ teaspoons Salt To Taste",
+        "½ cups Green Bell Pepper, Diced",
+        "½ cups Yellow Bell Pepper, Diced",
+        "½ cups Red Bell Pepper, Diced",
+        "½ cups Black Olives, Chopped",
+        "¼ cups Enchilada Sauce",
+        "½ cups Black Olives, Chopped",
+        "1 cup Shredded Monterey Jack Cheese",
+        "¼ cups Fresh Cilantro, Chopped",
+        "¼ cups Sour Cream For Garnish"
       ],
       "recipe":[
-        {"1":"Preheat oven to 400 F. Place tortillas on an ungreased baking sheet, lightly spray with cooking spray and prick all over with a fork."},
-        {"2":"Bake for 5-6 minutes, until they are puffed and begin to turn golden. Remove from oven and allow to cool. Keep the oven on."},
-        {"3":"In a large skillet, heat the olive oil over medium heat."},
-        {"4":"Add the sliced onions to the skillet, season with salt and pepper to taste, and cook over medium-low heat, stirring occasionally, until onions turn translucent and begin to caramelize (about 8-10 minutes). When the onions are almost done, add the diced peppers and cook just until they begin to soften. Remove skillet from heat."},
-        {"5":"Spoon about 1-2 tablespoons of enchilada sauce over each of the baked tortillas. Top with the onions and veggie mixture, olives and cheese."},
-        {"6":"Place it back in the oven and cook for 5-6 more minutes, until the cheese has melted. Remove from oven and garnish with fresh cilantro and sour cream."}
+        "Preheat oven to 400 F. Place tortillas on an ungreased baking sheet, lightly spray with cooking spray and prick all over with a fork.",
+        "Bake for 5-6 minutes, until they are puffed and begin to turn golden. Remove from oven and allow to cool. Keep the oven on.",
+        "In a large skillet, heat the olive oil over medium heat.",
+        "Add the sliced onions to the skillet, season with salt and pepper to taste, and cook over medium-low heat, stirring occasionally, until onions turn translucent and begin to caramelize (about 8-10 minutes). When the onions are almost done, add the diced peppers and cook just until they begin to soften. Remove skillet from heat.",
+        "Spoon about 1-2 tablespoons of enchilada sauce over each of the baked tortillas. Top with the onions and veggie mixture, olives and cheese.",
+        "Place it back in the oven and cook for 5-6 more minutes, until the cheese has melted. Remove from oven and garnish with fresh cilantro and sour cream."
       ]
     }
 ]

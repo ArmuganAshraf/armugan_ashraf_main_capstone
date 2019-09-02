@@ -2,6 +2,8 @@ import React from 'react';
 import axios from 'axios';
 import { Grid, GridColumn as Column, GridCell, GridDetailRow } from '@progress/kendo-react-grid';
 import { DropDownList } from '@progress/kendo-react-dropdowns';
+import {Link} from 'react-router-dom';
+import Navbar from "./components/NavBar/Navbar";
 
 class DetailComponent extends GridDetailRow {
   render() {
@@ -9,7 +11,7 @@ class DetailComponent extends GridDetailRow {
       let image = 'https://spoonacular.com/recipeImages/';
       return (
           <section>
-              <p><img src={image+dataItem.image} alt="" width="200px" height="200px"  /></p>
+             
               <p><strong>Ingredients:</strong> 
                 <ul>
                 {
@@ -101,12 +103,14 @@ class App extends React.Component{
     this.itemChange = this.itemChange.bind(this);
 
     class MyCommandCell extends GridCell {
+      
       render() {
+        const alertvalue = this.props.dataItem.plans;
           return (
                   <td>
                       <button
                           className="k-primary k-button k-grid-edit-command"
-                          onClick={() => addToPlan(this.props.dataItem)}
+                          onClick={() => addToPlan(this.props.dataItem) + alert("your choice is now added to " + alertvalue + " on the calendar")}
                       > Add
                           </button>
                   </td>
@@ -124,7 +128,6 @@ class App extends React.Component{
 
   foodData = () => {
     axios.get("http://localhost:8080/").then(response => {
-      console.log(response.data);
       this.setState({
         cuisine: response.data
         
@@ -194,6 +197,11 @@ class App extends React.Component{
     const evnt = this.state.cuisine;
     return (
       <>
+      <div>
+        <Navbar />
+        <Link to="Calendar"><button>"Review Calendar"</button></Link>
+      </div>
+      
         <Grid
             data={this.state.cuisine}
             onItemChange={this.itemChange}
@@ -208,6 +216,7 @@ class App extends React.Component{
             <Column field="servings" title="Servings" width="200px" />
             <Column field="plans" cell={DropDownCell} />
             <Column cell={this.commandCell} />
+           
         </Grid>
         
       </>

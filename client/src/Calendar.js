@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import {Calendar, momentLocalizer} from 'react-big-calendar';
 import moment from 'moment';
+import Navbar from './components/NavBar/Navbar';
+import {Link} from "react-router-dom";
 
 import "./App.css";
 import "react-big-calendar/lib/css/react-big-calendar.css";
@@ -169,6 +171,11 @@ class CalendarEvents extends Component {
     const dEvents = [monLE, monDE,tueLE, tueDE, wedLE, wedDE, thuLE, thuDE, friLE, friDE, satLE, satDE, sunLE, sunDE];
 
     return (
+    <>
+        <div>
+            <Navbar />
+            <Link to="/"><button>Change the plan</button></Link>
+        </div>
         <div className="App">
             <Calendar
             localizer={localizer}
@@ -180,7 +187,7 @@ class CalendarEvents extends Component {
             endAccessor='end'
             />
       </div>
-      
+    </>
       );
   }
 }
