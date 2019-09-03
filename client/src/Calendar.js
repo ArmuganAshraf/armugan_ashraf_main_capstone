@@ -174,7 +174,8 @@ class CalendarEvents extends Component {
     <>
         <div>
             <Navbar />
-            <Link to="/"><button>Change the plan</button></Link>
+            <Link to="/mealplan"><button>Change the plan</button></Link>
+            <Link to="/"><button>Home</button></Link>
         </div>
         <div className="App">
             <Calendar

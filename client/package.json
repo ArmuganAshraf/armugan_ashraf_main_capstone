@@ -23,8 +23,10 @@
     "react": "^16.9.0",
     "react-big-calendar": "^0.22.0",
     "react-dom": "^16.9.0",
+    "react-pose": "^4.0.8",
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.1.1",
+    "react-simple-animate": "^3.3.0",
     "react-transition-group": "4.2.2"
   },
   "scripts": {

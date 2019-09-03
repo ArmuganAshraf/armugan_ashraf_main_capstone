@@ -199,7 +199,8 @@ class App extends React.Component{
       <>
       <div>
         <Navbar />
-        <Link to="Calendar"><button>"Review Calendar"</button></Link>
+        <Link to="Calendar"><button>Review Calendar</button></Link>
+        <Link to="/"><button>Home</button></Link>
       </div>
       
         <Grid
