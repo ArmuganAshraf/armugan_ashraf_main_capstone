@@ -1,0 +1,15 @@
+.food1{
+    background-image: url("./components/image/mona-eendra-vC8wj_Kphak-unsplash.jpg");
+}
+
+.food__button{
+    background-color: transparent;
+    border-radius: 8px;
+    color: brown;
+    font-family: Helvetica, sans-serif, Arial;
+    margin-right: 1px;
+    font-size: 1.2rem;
+    font-style: bold;
+    border: none;
+    margin-right: 150px;
+}

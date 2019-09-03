@@ -8,7 +8,7 @@ div.home{
 
 div.description{
     text-align: center;
-    padding: 10px;
+    padding: 5px;
     font-size: 18px;
     color: blueviolet;
 }
@@ -30,3 +30,14 @@ span.title{
     writing-mode: sideways-lr;
 }
 
+.overall{
+    background-image: url("../image/mona-eendra-vC8wj_Kphak-unsplash.jpg");
+    height:100vh;
+}
+
+.baker{
+    display: flex;
+    background-image: url("../image/mona-eendra-vC8wj_Kphak-unsplash.jpg");
+    width:100vw;
+    height:15vh;
+}

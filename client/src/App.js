@@ -4,6 +4,7 @@ import { Grid, GridColumn as Column, GridCell, GridDetailRow } from '@progress/k
 import { DropDownList } from '@progress/kendo-react-dropdowns';
 import {Link} from 'react-router-dom';
 import Navbar from "./components/NavBar/Navbar";
+import "./FoodButton.css";
 
 class DetailComponent extends GridDetailRow {
   render() {
@@ -197,10 +198,13 @@ class App extends React.Component{
     const evnt = this.state.cuisine;
     return (
       <>
+      <div className="food1">
       <div>
         <Navbar />
-        <Link to="Calendar"><button>Review Calendar</button></Link>
-        <Link to="/"><button>Home</button></Link>
+        <div className="food">
+          <Link to="Calendar"><button className="food__button">Review Calendar</button></Link>
+          <Link to="/"><button className="food__button">Home</button></Link>
+        </div>
       </div>
       
         <Grid
@@ -219,7 +223,7 @@ class App extends React.Component{
             <Column cell={this.commandCell} />
            
         </Grid>
-        
+      </div> 
       </>
     );
   }
