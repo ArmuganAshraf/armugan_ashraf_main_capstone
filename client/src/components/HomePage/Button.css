@@ -1,0 +1,28 @@
+.homebutton{
+    display: flex;
+    justify-content: flex-end;
+    background-image: url(../image/mona-eendra-vC8wj_Kphak-unsplash.jpg);
+}
+
+.homebutton__button1{
+    background-color:transparent;
+    width: 100px;
+    border-radius: 8px;
+    color: brown;
+    font-size: 1.2rem;
+    margin-right: 2px;
+    font-family: Helvetica, sans-serif, Arial;
+    font-style: italic;
+    border: none;
+}
+.homebutton__button2{
+    background-color:transparent;
+    width: 100px;
+    border-radius: 8px;
+    color: brown;
+    font-family: Helvetica, sans-serif, Arial;
+    margin-right: 1px;
+    font-size: 1.2rem;
+    font-style: italic;
+    border: none;
+}

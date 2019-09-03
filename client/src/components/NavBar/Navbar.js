@@ -1,11 +1,12 @@
 import React from 'react';
 import Baker from '../image/baker.svg';
+import Title from "../HomePage/Title";
 
 class Navbar extends React.Component{
   render(){
     return(
       <>
-        <h1>Plan it up!</h1>
+        <Title />
         <img src={Baker}  width='100px' height='100px'/>
       </>
     )
