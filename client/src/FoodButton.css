@@ -1,0 +1,34 @@
+.food1{
+    background-image: url("./components/image/mona-eendra-vC8wj_Kphak-unsplash.jpg");
+}
+
+.food{
+    background-image:url("./components/image/mona-eendra-vC8wj_Kphak-unsplash.jpg") ;
+    margin-right: 1px;
+    font-size: 1.2rem;
+    font-style: bold;
+    width: 100vw;
+    padding-right: 120px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.food__button1{
+    color: brown;
+    font-family: Helvetica, sans-serif, Arial;
+    background-color: transparent;
+    border: none;
+    
+}
+
+.food__button2{
+    color: brown;
+    font-family: Helvetica, sans-serif, Arial;
+    background-color: transparent;
+    border: none;
+    margin-left:20px;
+}
+
+.background{
+    background-image: url('./components/image/nika-akin-N3TmD1KJHtE-unsplash.jpg');
+}

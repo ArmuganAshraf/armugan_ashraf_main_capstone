@@ -1,0 +1,48 @@
+div.home{
+  width: 20%;
+  background-color: beige;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  border-radius: 5px;
+}
+
+div.description{
+    text-align: center;
+    padding: 5px;
+    font-size: 18px;
+    color: blueviolet;
+}
+
+div.cards{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;
+    background:transparent;
+}
+
+span{
+    font-style: italic;
+    font-family: Helvetica, sans-serif, Arial;
+    color: brown;
+}
+
+span.title{
+    writing-mode: sideways-lr;
+}
+
+.overall{
+    background-image: url("../image/mona-eendra-vC8wj_Kphak-unsplash.jpg");
+    height:100vh;
+}
+
+.baker{
+    display: flex;
+    background:transparent;
+    height:15vh;
+}
+
+.navbar{
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+}

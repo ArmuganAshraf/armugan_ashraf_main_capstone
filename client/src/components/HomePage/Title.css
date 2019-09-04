@@ -1,0 +1,32 @@
+.title{
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 8px;
+    
+    position: relative;
+    color: white;
+    text-shadow: 5px solid rgb(88, 81, 81);
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    animation: text 3s 1 ;
+    text-align: center;
+    top:100;
+    bottom:100;
+    margin-bottom: 10px;
+}
+
+@keyframes text {
+    0%{
+        margin-bottom: -40px;
+    }
+
+    30%{
+        letter-spacing: 25px;
+        margin-bottom: -40px;
+    }
+
+    85%{
+        letter-spacing: 8px;
+        margin-bottom: -40px;
+    }
+}

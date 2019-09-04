@@ -1,0 +1,11 @@
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 200px;
+    padding-left:140px;
+    font-family: Helvetica, sans-serif, Arial;
+    font-style: bold;
+    color:brown;
+    padding-top: 50px;
+    font-size: 1rem;
+}
