@@ -23,6 +23,7 @@
     "react": "^16.9.0",
     "react-big-calendar": "^0.22.0",
     "react-dom": "^16.9.0",
+    "react-google-calendar-api": "^1.0.10",
     "react-pose": "^4.0.8",
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.1.1",

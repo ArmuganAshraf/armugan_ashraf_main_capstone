@@ -6,6 +6,8 @@ import {Link} from 'react-router-dom';
 import Navbar from "./components/NavBar/Navbar";
 import "./FoodButton.css";
 
+import ApiCalendar from 'react-google-calendar-api';
+
 class DetailComponent extends GridDetailRow {
   render() {
       const dataItem = this.props.dataItem;
@@ -125,6 +127,7 @@ class App extends React.Component{
   
   componentDidMount(){
     this.foodData();
+    
   }
 
   foodData = () => {
@@ -155,6 +158,88 @@ class App extends React.Component{
      this.setState({
          data: this.state.cuisine.slice()
      });
+     const summary = dataItem.title;
+     let startTime = "";
+     let endTime = "";
+
+     if(dataItem.plans === "Monday Lunch"){
+      startTime = "2019-09-02T09:00:00-07:00";
+      endTime = "2019-09-02T11:00:00-07:00";
+     }
+     if(dataItem.plans === "Monday Dinner"){
+      startTime = "2019-09-02T14:00:00-07:00";
+      endTime = "2019-09-02T17:00:00-07:00";
+     }
+     if(dataItem.plans === "Tuesday Lunch"){
+      startTime = "2019-09-03T09:00:00-07:00";
+      endTime = "2019-09-03T11:00:00-07:00";
+     }
+     if(dataItem.plans === "Tuesday Dinner"){
+      startTime = "2019-09-03T14:00:00-07:00";
+      endTime = "2019-09-03T17:00:00-07:00";
+     }
+     if(dataItem.plans === "Wednesday Lunch"){
+      startTime = "2019-09-04T09:00:00-07:00";
+      endTime = "2019-09-04T11:00:00-07:00";
+     }
+     if(dataItem.plans === "Wednesday Dinner"){
+      startTime = "2019-09-04T14:00:00-07:00";
+      endTime = "2019-09-04T17:00:00-07:00";
+     }
+     if(dataItem.plans === "Thursday Lunch"){
+      startTime = "2019-09-05T09:00:00-07:00";
+      endTime = "2019-09-05T11:00:00-07:00";
+     }
+     if(dataItem.plans === "Thursday Dinner"){
+      startTime = "2019-09-05T14:00:00-07:00";
+      endTime = "2019-09-05T17:00:00-07:00";
+     }
+     if(dataItem.plans === "Friday Lunch"){
+      startTime = "2019-09-06T09:00:00-07:00";
+      endTime = "2019-09-06T11:00:00-07:00";
+     }
+     if(dataItem.plans === "Friday Dinner"){
+      startTime = "2019-09-06T14:00:00-07:00";
+      endTime = "2019-09-06T17:00:00-07:00";
+     }
+     if(dataItem.plans === "Saturday Lunch"){
+      startTime = "2019-09-07T09:00:00-07:00";
+      endTime = "2019-09-07T11:00:00-07:00";
+     }
+     if(dataItem.plans === "Saturday Dinner"){
+      startTime = "2019-09-07T14:00:00-07:00";
+      endTime = "2019-09-07T17:00:00-07:00";
+     }
+     if(dataItem.plans === "Sunday Lunch"){
+      startTime = "2019-09-08T09:00:00-07:00";
+      endTime = "2019-09-08T11:00:00-07:00";
+     }
+     if(dataItem.plans === "Sunday Dinner"){
+      startTime = "2019-09-08T14:00:00-07:00";
+      endTime = "2019-09-08T17:00:00-07:00";
+     }
+
+     const event = {
+      'summary': summary,
+      'start': {
+        'dateTime': startTime,
+        'timeZone': 'America/New_York'
+      },
+      'end': {
+        'dateTime': endTime,
+        'timeZone': 'America/New_York'
+      }
+    };
+
+    console.log(dataItem);
+
+    ApiCalendar.createEvent(event, '6qdmpjif8r89dk7sdghbvf390o@group.calendar.google.com')
+    .then((result) => {
+      console.log(result);
+        })
+     .catch((error) => {
+       console.log(error);
+        });
   }
 
   itemChange(event) {
@@ -198,15 +283,15 @@ class App extends React.Component{
     const evnt = this.state.cuisine;
     return (
       <>
+      <div className="food">
+          <Link to="Calendar"><button className="food__button1">Calendar</button></Link>
+          <Link to="/"><button className="food__button2">Home</button></Link>
+        </div>
       <div className="food1">
       <div>
         <Navbar />
-        <div className="food">
-          <Link to="Calendar"><button className="food__button">Review Calendar</button></Link>
-          <Link to="/"><button className="food__button">Home</button></Link>
-        </div>
       </div>
-      
+      <div className="background">
         <Grid
             data={this.state.cuisine}
             onItemChange={this.itemChange}
@@ -223,6 +308,7 @@ class App extends React.Component{
             <Column cell={this.commandCell} />
            
         </Grid>
+        </div>
       </div> 
       </>
     );

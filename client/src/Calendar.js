@@ -4,7 +4,8 @@ import moment from 'moment';
 import Navbar from './components/NavBar/Navbar';
 import {Link} from "react-router-dom";
 
-import "./App.css";
+
+import "./FoodButton.css";
 import "react-big-calendar/lib/css/react-big-calendar.css";
 import axios from 'axios';
 
@@ -172,22 +173,28 @@ class CalendarEvents extends Component {
 
     return (
     <>
-        <div>
-            <Navbar />
-            <Link to="/mealplan"><button>Change the plan</button></Link>
-            <Link to="/"><button>Home</button></Link>
+        <div className="food1">
+            <div className="food">
+                <Link to="/mealplan"><button className="food__button1">Menu</button></Link>
+                <Link to="/"><button className="food__button2">Home</button></Link>
+            </div>
+            <div>
+                <Navbar />
+            </div>  
         </div>
-        <div className="App">
-            <Calendar
-            localizer={localizer}
-            defaultDate={new Date()}
-            defaultView="week"
-            events={dEvents}
-            style={{ height: "600px" }}
-            startAccessor='start'
-            endAccessor='end'
-            />
-      </div>
+        <div className="background">
+            <div className="App">
+                <Calendar
+                localizer={localizer}
+                defaultDate={new Date()}
+                defaultView="week"
+                events={dEvents}
+                style={{ height: "600px" }}
+                startAccessor='start'
+                endAccessor='end'
+                />
+            </div>
+        </div>
     </>
       );
   }

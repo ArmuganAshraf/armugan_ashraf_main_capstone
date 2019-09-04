@@ -17,7 +17,7 @@ div.cards{
     display: flex;
     justify-content: space-evenly;
     padding-top: 100px;
-    background-image: url(../image/mona-eendra-vC8wj_Kphak-unsplash.jpg);
+    background:transparent;
 }
 
 span{
@@ -37,7 +37,12 @@ span.title{
 
 .baker{
     display: flex;
-    background-image: url("../image/mona-eendra-vC8wj_Kphak-unsplash.jpg");
-    width:100vw;
+    background:transparent;
     height:15vh;
+}
+
+.navbar{
+    overflow: auto;
+    display: flex;
+    justify-content: center;
 }

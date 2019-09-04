@@ -7,14 +7,28 @@ import {Link} from "react-router-dom";
 import Button from "./Button";
 import Footer from "../Footer/Footer"
 
+import ApiCalendar from 'react-google-calendar-api';
+
 import './HomePage.css';
 
 class HomePage extends React.Component{
+
+  componentDidMount(){
+    
+    setTimeout(() => {
+      ApiCalendar.handleAuthClick();
+    }, 5000);
+    
+  }
+
   render(){
     return(
       <>
       <div className="overall">
       <Button />
+      <div>
+         <Title />
+       </div>
         <div className="main">
           <div className="cards">
             <div className="home">
@@ -38,9 +52,6 @@ class HomePage extends React.Component{
               </div> 
             </div>
           </div>
-       </div>
-       <div>
-         <Title />
        </div>
        <div>
          <Footer />
