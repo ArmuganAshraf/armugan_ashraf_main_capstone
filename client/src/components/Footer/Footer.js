@@ -7,7 +7,7 @@ class Footer extends React.Component{
         <div className="footer">
           <h5>By: Armugan Ashraf</h5>
           <p>email:armugana1@gmail.com</p>
-          <p>https://www.linkedin.com/in/armugan-ashraf/ </p>
+          <p><a href="https://www.linkedin.com/in/armugan-ashraf/">https://www.linkedin.com/in/armugan-ashraf/</a></p>
         </div>
       </>
     )
