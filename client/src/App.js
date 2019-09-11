@@ -103,6 +103,7 @@ class App extends React.Component{
     };
 
     const addToPlan = this.addToPlan.bind(this);
+    //const nextDay = this.nextDay.bind(this);
     this.itemChange = this.itemChange.bind(this);
 
     class MyCommandCell extends GridCell {
@@ -149,16 +150,18 @@ class App extends React.Component{
       meal: dataItem
     })
     .then(function (response) {
-      console.log(response);
+      //console.log(response);
     })
     .catch(function (error) {
-      console.log(error);
+      //console.log(error);
     });
 
      this.setState({
          data: this.state.cuisine.slice()
      });
      const summary = dataItem.title;
+     
+
      let startTime = "";
      let endTime = "";
 
@@ -166,6 +169,7 @@ class App extends React.Component{
       startTime = "2019-09-02T09:00:00-07:00";
       endTime = "2019-09-02T11:00:00-07:00";
      }
+
      if(dataItem.plans === "Monday Dinner"){
       startTime = "2019-09-02T14:00:00-07:00";
       endTime = "2019-09-02T17:00:00-07:00";
@@ -231,14 +235,14 @@ class App extends React.Component{
       }
     };
 
-    console.log(dataItem);
+   // console.log(dataItem);
 
     ApiCalendar.createEvent(event, '6qdmpjif8r89dk7sdghbvf390o@group.calendar.google.com')
     .then((result) => {
-      console.log(result);
+      //console.log(result);
         })
      .catch((error) => {
-       console.log(error);
+       //console.log(error);
         });
   }
 
