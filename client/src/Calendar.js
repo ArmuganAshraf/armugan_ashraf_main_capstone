@@ -34,9 +34,7 @@ class CalendarEvents extends Component {
     
   render() {
     const d = new Date();
-    
-    //console.log(date.getDate(), date.getMonth()+1, date.getFullYear());
-    console.log(new Date);
+
     const monL = this.state.events.filter(t=>t.plans ==='Monday Lunch');
     let monLE = {};
     
@@ -44,8 +42,8 @@ class CalendarEvents extends Component {
         const date = this.nextDay(d,1);
         monLE = {
             
-            end:  new Date(date),
-            start:new Date (date),
+            end:  new Date(`${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()}T14:00:00`),
+            start:new Date (`${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()}T12:00:00`),
             title: monL[0].title
         };
         console.log(monLE)
@@ -56,8 +54,8 @@ class CalendarEvents extends Component {
     if(monD.length !== 0){
         const date = this.nextDay(d,1);
         monDE = {
-            end:  new Date(date),
-            start:new Date (date),
+            end:  new Date(`${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()}T20:00:00`),
+            start:new Date (`${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()}T18:00:00`),
             title: monD[0].title
         };
     }
@@ -67,8 +65,8 @@ class CalendarEvents extends Component {
     if(tueL.length !== 0){
         const date = this.nextDay(d,2);
         tueLE = {
-            end:  new Date(date),
-            start:new Date (date),
+            end:  new Date(`${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()}T14:00:00`),
+            start:new Date (`${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()}T12:00:00`),
             title: tueL[0].title
         };
     }
@@ -78,8 +76,8 @@ class CalendarEvents extends Component {
     if(tueD.length !== 0){
         const date = this.nextDay(d,2);
         tueDE = {
-            end:  new Date(date),
-            start:new Date (date),
+            end:  new Date(`${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()}T20:00:00`),
+            start:new Date (`${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()}T18:00:00`),
             title: tueD[0].title
         };
     }
@@ -89,8 +87,8 @@ class CalendarEvents extends Component {
     if(wedL.length !== 0){
         const date = this.nextDay(d,3);
         wedLE = {
-            end:  new Date(date),
-            start:new Date (date),
+            end:  new Date(`${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()}T14:00:00`),
+            start:new Date (`${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()}T12:00:00`),
             title: wedL[0].title
         };
     }
@@ -100,8 +98,8 @@ class CalendarEvents extends Component {
     if(wedD.length !== 0){
         const date = this.nextDay(d,3);
         wedDE = {
-            end:  new Date(date),
-            start:new Date (date),
+            end:  new Date(`${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()}T20:00:00`),
+            start:new Date (`${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()}T18:00:00`),
             title: wedD[0].title
         };
     }
@@ -111,8 +109,8 @@ class CalendarEvents extends Component {
     if(thuL.length !== 0){
         const date = this.nextDay(d,4);
         thuLE = {
-            end:  new Date(date),
-            start:new Date (date),
+            end:  new Date(`${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()}T14:00:00`),
+            start:new Date (`${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()}T12:00:00`),
             title: thuL[0].title
         };
     }
@@ -122,8 +120,8 @@ class CalendarEvents extends Component {
     if(thuD.length !== 0){
         const date = this.nextDay(d,4);
         thuDE = {
-            end:  new Date(date),
-            start:new Date (date),
+            end:  new Date(`${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()}T20:00:00`),
+            start:new Date (`${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()}T18:00:00`),
             title: thuD[0].title
         };
     }
@@ -133,8 +131,8 @@ class CalendarEvents extends Component {
     if(friL.length !== 0){
         const date = this.nextDay(d,5);
         friLE = {
-            end:  new Date(date),
-            start:new Date (date),
+            end:  new Date(`${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()}T14:00:00`),
+            start:new Date (`${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()}T12:00:00`),
             title: friL[0].title
         };
     }
@@ -144,8 +142,8 @@ class CalendarEvents extends Component {
     if(friD.length !== 0){
         const date = this.nextDay(d,5);
         friDE = {
-            end:  new Date(date),
-            start:new Date (date),
+            end:  new Date(`${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()}T20:00:00`),
+            start:new Date (`${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()}T18:00:00`),
             title: friD[0].title
         };
     }
@@ -155,8 +153,8 @@ class CalendarEvents extends Component {
     if(satL.length !== 0){
         const date = this.nextDay(d,6);
         satLE = {
-            end:  new Date(date),
-            start:new Date (date),
+            end:  new Date(`${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()}T14:00:00`),
+            start:new Date (`${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()}T12:00:00`),
             title: satL[0].title
         };
     }
@@ -166,8 +164,8 @@ class CalendarEvents extends Component {
     if(satD.length !== 0){
         const date = this.nextDay(d,6);
         satDE = {
-            end:  new Date(date),
-            start:new Date (date),
+            end:  new Date(`${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()}T20:00:00`),
+            start:new Date (`${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()}T18:00:00`),
             title: satD[0].title
         };
     }
@@ -177,8 +175,8 @@ class CalendarEvents extends Component {
     if(sunL.length !== 0){
         const date = this.nextDay(d,0);
         sunLE = {
-            end:  new Date(date),
-            start:new Date (date),
+            end:  new Date(`${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()}T14:00:00`),
+            start:new Date (`${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()}T12:00:00`),
             title: sunL[0].title
         };
     }
@@ -188,8 +186,8 @@ class CalendarEvents extends Component {
     if(sunD.length !== 0){
         const date = this.nextDay(d,0);
         sunDE = {
-            end:  new Date(date),
-            start:new Date (date),
+            end:  new Date(`${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()}T20:00:00`),
+            start:new Date (`${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()}T18:00:00`),
             title: sunD[0].title
         };
     }

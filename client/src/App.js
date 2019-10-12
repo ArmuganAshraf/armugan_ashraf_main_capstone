@@ -2,6 +2,7 @@ import React from 'react';
 import axios from 'axios';
 import { Grid, GridColumn as Column, GridCell, GridDetailRow } from '@progress/kendo-react-grid';
 import { DropDownList } from '@progress/kendo-react-dropdowns';
+import moment from 'moment';
 import {Link} from 'react-router-dom';
 import Navbar from "./components/NavBar/Navbar";
 import "./FoodButton.css";
@@ -113,10 +114,9 @@ class App extends React.Component{
           return (
                   <td>
                       <button
-                          className="k-primary k-button k-grid-edit-command"
-                          onClick={() => addToPlan(this.props.dataItem) + alert("your choice is now added to " + alertvalue + " on the calendar")}
+                        onClick={() => addToPlan(this.props.dataItem) + alert("your choice is now added to " + alertvalue + " on the calendar")}
                       > Add
-                          </button>
+                        </button>
                   </td>
               ) ;
       }
@@ -161,66 +161,74 @@ class App extends React.Component{
      });
      const summary = dataItem.title;
      
-
+     const nextDay  = function(d, dow) {
+      var returnDate = new Date();
+      returnDate.setDate(d.getDate() + (dow+(7-d.getDay())) % 7);
+      return returnDate;
+     };
+       
+    
+     const d = new Date();
      let startTime = "";
      let endTime = "";
 
      if(dataItem.plans === "Monday Lunch"){
-      startTime = "2019-09-02T09:00:00-07:00";
-      endTime = "2019-09-02T11:00:00-07:00";
+      startTime = nextDay(d, 1);
+      endTime = nextDay(d, 1);
      }
+     console.log(startTime, endTime);
 
      if(dataItem.plans === "Monday Dinner"){
-      startTime = "2019-09-02T14:00:00-07:00";
-      endTime = "2019-09-02T17:00:00-07:00";
+      startTime = "2019-10-14T14:00:00-07:00";
+      endTime = "2019-10-14T17:00:00-07:00";
      }
      if(dataItem.plans === "Tuesday Lunch"){
-      startTime = "2019-09-03T09:00:00-07:00";
-      endTime = "2019-09-03T11:00:00-07:00";
+      startTime = "2019-10-15T09:00:00-07:00";
+      endTime = "2019-10-15T11:00:00-07:00";
      }
      if(dataItem.plans === "Tuesday Dinner"){
-      startTime = "2019-09-03T14:00:00-07:00";
-      endTime = "2019-09-03T17:00:00-07:00";
+      startTime = "2019-10-15T14:00:00-07:00";
+      endTime = "2019-10-15T17:00:00-07:00";
      }
      if(dataItem.plans === "Wednesday Lunch"){
-      startTime = "2019-09-04T09:00:00-07:00";
-      endTime = "2019-09-04T11:00:00-07:00";
+      startTime = "2019-10-16T09:00:00-07:00";
+      endTime = "2019-10-16T11:00:00-07:00";
      }
      if(dataItem.plans === "Wednesday Dinner"){
-      startTime = "2019-09-04T14:00:00-07:00";
-      endTime = "2019-09-04T17:00:00-07:00";
+      startTime = "2019-10-16T14:00:00-07:00";
+      endTime = "2019-10-16T17:00:00-07:00";
      }
      if(dataItem.plans === "Thursday Lunch"){
-      startTime = "2019-09-05T09:00:00-07:00";
-      endTime = "2019-09-05T11:00:00-07:00";
+      startTime = "2019-10-17T09:00:00-07:00";
+      endTime = "2019-10-17T11:00:00-07:00";
      }
      if(dataItem.plans === "Thursday Dinner"){
-      startTime = "2019-09-05T14:00:00-07:00";
+      startTime = "2019-10-17T14:00:00-07:00";
       endTime = "2019-09-05T17:00:00-07:00";
      }
      if(dataItem.plans === "Friday Lunch"){
-      startTime = "2019-09-06T09:00:00-07:00";
-      endTime = "2019-09-06T11:00:00-07:00";
+      startTime = "2019-10-18T09:00:00-07:00";
+      endTime = "2019-10-18T11:00:00-07:00";
      }
      if(dataItem.plans === "Friday Dinner"){
-      startTime = "2019-09-06T14:00:00-07:00";
-      endTime = "2019-09-06T17:00:00-07:00";
+      startTime = "2019-10-18T14:00:00-07:00";
+      endTime = "2019-10-18T17:00:00-07:00";
      }
      if(dataItem.plans === "Saturday Lunch"){
-      startTime = "2019-09-07T09:00:00-07:00";
-      endTime = "2019-09-07T11:00:00-07:00";
+      startTime = "2019-10-19T09:00:00-07:00";
+      endTime = "2019-10-19T11:00:00-07:00";
      }
      if(dataItem.plans === "Saturday Dinner"){
-      startTime = "2019-09-07T14:00:00-07:00";
-      endTime = "2019-09-07T17:00:00-07:00";
+      startTime = "2019-10-19T14:00:00-07:00";
+      endTime = "2019-10-19T17:00:00-07:00";
      }
      if(dataItem.plans === "Sunday Lunch"){
-      startTime = "2019-09-08T09:00:00-07:00";
-      endTime = "2019-09-08T11:00:00-07:00";
+      startTime = "2019-10-20T09:00:00-07:00";
+      endTime = "2019-10-20T11:00:00-07:00";
      }
      if(dataItem.plans === "Sunday Dinner"){
-      startTime = "2019-09-08T14:00:00-07:00";
-      endTime = "2019-09-08T17:00:00-07:00";
+      startTime = "2019-10-20T14:00:00-07:00";
+      endTime = "2019-10-20T17:00:00-07:00";
      }
 
      const event = {
