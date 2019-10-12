@@ -173,62 +173,76 @@ class App extends React.Component{
      let endTime = "";
 
      if(dataItem.plans === "Monday Lunch"){
-      startTime = nextDay(d, 1);
-      endTime = nextDay(d, 1);
+      const date= nextDay(d,1);
+      startTime = new Date (`${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()}T12:00:00`);
+      endTime = new Date(`${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()}T14:00:00`);
      }
      console.log(startTime, endTime);
 
      if(dataItem.plans === "Monday Dinner"){
-      startTime = "2019-10-14T14:00:00-07:00";
-      endTime = "2019-10-14T17:00:00-07:00";
+      const date= nextDay(d,1);
+      startTime = new Date (`${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()}T18:00:00`);
+      endTime = new Date(`${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()}T20:00:00`);
      }
      if(dataItem.plans === "Tuesday Lunch"){
-      startTime = "2019-10-15T09:00:00-07:00";
-      endTime = "2019-10-15T11:00:00-07:00";
+      const date= nextDay(d,2);
+      startTime = new Date (`${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()}T12:00:00`);
+      endTime = new Date(`${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()}T14:00:00`);
      }
      if(dataItem.plans === "Tuesday Dinner"){
-      startTime = "2019-10-15T14:00:00-07:00";
-      endTime = "2019-10-15T17:00:00-07:00";
+      const date= nextDay(d,2);
+      startTime = new Date (`${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()}T18:00:00`);
+      endTime = new Date(`${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()}T20:00:00`);
      }
      if(dataItem.plans === "Wednesday Lunch"){
-      startTime = "2019-10-16T09:00:00-07:00";
-      endTime = "2019-10-16T11:00:00-07:00";
+      const date= nextDay(d,3);
+      startTime = new Date (`${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()}T12:00:00`);
+      endTime = new Date(`${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()}T14:00:00`);
      }
      if(dataItem.plans === "Wednesday Dinner"){
-      startTime = "2019-10-16T14:00:00-07:00";
-      endTime = "2019-10-16T17:00:00-07:00";
+      const date= nextDay(d,3);
+      startTime = new Date (`${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()}T18:00:00`);
+      endTime = new Date(`${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()}T20:00:00`);
      }
      if(dataItem.plans === "Thursday Lunch"){
-      startTime = "2019-10-17T09:00:00-07:00";
-      endTime = "2019-10-17T11:00:00-07:00";
+      const date= nextDay(d,4);
+      startTime = new Date (`${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()}T12:00:00`);
+      endTime = new Date(`${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()}T14:00:00`);
      }
      if(dataItem.plans === "Thursday Dinner"){
-      startTime = "2019-10-17T14:00:00-07:00";
-      endTime = "2019-09-05T17:00:00-07:00";
+      const date= nextDay(d,4);
+      startTime = new Date (`${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()}T18:00:00`);
+      endTime = new Date(`${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()}T20:00:00`);
      }
      if(dataItem.plans === "Friday Lunch"){
-      startTime = "2019-10-18T09:00:00-07:00";
-      endTime = "2019-10-18T11:00:00-07:00";
+      const date= nextDay(d,5);
+      startTime = new Date (`${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()}T12:00:00`);
+      endTime = new Date(`${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()}T14:00:00`);
      }
      if(dataItem.plans === "Friday Dinner"){
-      startTime = "2019-10-18T14:00:00-07:00";
-      endTime = "2019-10-18T17:00:00-07:00";
+      const date= nextDay(d,5);
+      startTime = new Date (`${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()}T18:00:00`);
+      endTime = new Date(`${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()}T20:00:00`);
      }
      if(dataItem.plans === "Saturday Lunch"){
-      startTime = "2019-10-19T09:00:00-07:00";
-      endTime = "2019-10-19T11:00:00-07:00";
+      const date= nextDay(d,6);
+      startTime = new Date (`${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()}T12:00:00`);
+      endTime = new Date(`${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()}T14:00:00`);
      }
      if(dataItem.plans === "Saturday Dinner"){
-      startTime = "2019-10-19T14:00:00-07:00";
-      endTime = "2019-10-19T17:00:00-07:00";
+      const date= nextDay(d,6);
+      startTime = new Date (`${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()}T18:00:00`);
+      endTime = new Date(`${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()}T20:00:00`);
      }
      if(dataItem.plans === "Sunday Lunch"){
-      startTime = "2019-10-20T09:00:00-07:00";
-      endTime = "2019-10-20T11:00:00-07:00";
+      const date= nextDay(d,0);
+      startTime = new Date (`${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()}T12:00:00`);
+      endTime = new Date(`${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()}T14:00:00`);
      }
      if(dataItem.plans === "Sunday Dinner"){
-      startTime = "2019-10-20T14:00:00-07:00";
-      endTime = "2019-10-20T17:00:00-07:00";
+      const date= nextDay(d,0);
+      startTime = new Date (`${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()}T18:00:00`);
+      endTime = new Date(`${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()}T20:00:00`);
      }
 
      const event = {
